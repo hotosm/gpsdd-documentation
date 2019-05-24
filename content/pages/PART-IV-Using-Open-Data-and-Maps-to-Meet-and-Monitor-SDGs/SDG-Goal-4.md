@@ -1,5 +1,6 @@
 ---
 title: Goal 4 - Quality Education
+weight: 4
 ---
 
 ## Ensure inclusive and quality education for all and promote lifelong learning 
