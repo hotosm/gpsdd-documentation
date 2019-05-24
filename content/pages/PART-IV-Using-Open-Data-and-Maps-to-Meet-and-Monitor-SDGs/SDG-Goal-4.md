@@ -3,7 +3,10 @@ title: Goal 4 - Quality Education
 weight: 4
 ---
 
-![GAL_peru](https://github.com/hotosm/gpsdd-documentation/blob/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/sdg_photos/Unknown-2.jpeg)
+<p align="center">
+  <img src="https://github.com/hotosm/gpsdd-documentation/blob/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/sdg_photos/Unknown-2.jpeg">
+</p>
+
 
 ## Ensure inclusive and quality education for all and promote lifelong learning 
 
