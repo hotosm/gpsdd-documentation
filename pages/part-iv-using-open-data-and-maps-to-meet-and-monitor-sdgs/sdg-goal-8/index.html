@@ -164,12 +164,12 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-8/">
+      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-8/" class="active">
     Goal 8 - Decent Work and Economic Growth</a>
     </li>
     
     <li>
-      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-1/" class="active">
+      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-1/">
     Goal 1 - No Poverty</a>
     </li>
     
@@ -227,13 +227,13 @@ https://github.com/hotosm/hugo-book
     <img src="../../../svg/menu.svg" />
   </label>
   <strong>
-    Goal 1 - No Poverty</strong>
+    Goal 8 - Decent Work and Economic Growth</strong>
 </header>
 
       
 <article class="markdown">
-  <div class="markdown__header">  <h1>Goal 1 - No Poverty</h1>
-    <a href="../../../pdfs/SDG-Goal-1.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+  <div class="markdown__header">  <h1>Goal 8 - Decent Work and Economic Growth</h1>
+    <a href="../../../pdfs/SDG-Goal-8.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -241,218 +241,20 @@ https://github.com/hotosm/hugo-book
         </g>
       </svg>
     </a>
-  </div>
-
-<h2 id="end-poverty-in-all-its-forms-everywhere">End poverty in all its forms everywhere</h2>
-
-<p><em>“Extreme poverty rates have fallen by more than half since 1990. While this is a remarkable achievement, one-in-five people in developing regions still live on less than $1.90 a day. Millions more make little more than this daily amount and are at risk of slipping back into extreme poverty.”</em></p>
-
-<p>Poverty elimination projects to map low income (often slum) areas can support humanitarian and development programming. Particularly, mapping access to financial services and monitoring areas with low employment rates is fundamental to enabling those living in poverty to become more economically stable and to improve employability and education initiatives.</p>
-
-<p>Additionally, while property boundaries are not imported into OpenStreetMap directly, putting villages and household footprints on a map is often the first step in giving communities a voice in land rights. “Geospatial information is critical in helping people claim their property rights. OSM allows for a flexible database schema and detailed historical information on how and when data originated. Both of these traits are particularly helpful in property rights, which are essentially a social contract between people about their land (versus solely between a person and the land they inhabit without accounting for their neighbors, community, society, etc.).”[1]</p>
-
-<h4 id="what-has-been-done">What has been done?</h4>
-
-<p><strong><a href="https://www.hotosm.org/projects/mapping_financial_inclusion_in_uganda">Mapping Financial Inclusion in Uganda:</a></strong> In order to increase digital financial inclusion, HOT mapped access to financial services in Uganda, allowing providers to analyze gaps in coverage. Access to digital financial services is fundamental to enabling struggling people to become more economically stable, prosperous, and resilient. These services – payments, credit, savings and insurance offered through mobile phones or other technology – are reaching millions of people around the world who had not previously been included in the financial system.</p>
-
-<p><strong><a href="https://www.hotosm.org/projects/map-kibera-slum-mapping">Map Kibera:</a></strong> The World Bank has partnered with Map Kibera to aid regional counties to engage citizens in an ongoing participatory budgeting process for development initiatives. The main purpose of this project is to use citizen-generated data to ensure that development projects within the counties meet the needs of the people.</p>
-
-<h4 id="what-else-could-be-mapped">What else could be mapped?</h4>
-
-<ul>
-<li>Mapping basic services including education, water points, sanitation, and electricity. See Goals 4, 6, and 7 respectively, for examples and data models.</li>
-<li>Work with communities and governments to add collectively agreed upon administrative boundaries to the map.</li>
-<li>Work with rural communities to map underrepresented villages.</li>
-<li>Map commercial activity to understand economic needs and opportunities.</li>
-<li>Survey households for land ownership status.</li>
-</ul>
-
-<h4 id="osm-data-model">OSM Data Model</h4>
-
-<table>
-  <tr>
-   <td>Type
-   </td>
-   <td>Category
-   </td>
-   <td>Key
-   </td>
-   <td>Value
-   </td>
-   <td>Description/notes
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="9" >Commercial activity
-   </td>
-   <td rowspan="3" >All commercial points of interest
-   </td>
-   <td>name
-   </td>
-   <td><Business name; name of the agent location (one can own multiple)>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>noname
-   </td>
-   <td><em>if no name <yes></em>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>opening_hours
-   </td>
-   <td>Example: “Mo-Su 08:00-22:00”, “24/7”, “Mo-Fr 08:30-20:00; Sa,Su 08:00-15:00”
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Financial Services / Mobile Money
-   </td>
-   <td>amenity
-   </td>
-   <td>mobile_money_agent, bank, banking_agent, atm, credit_institution, microfinance_bank, microfinance, sacco, bureau_de_change, money_transfer
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>network
-   </td>
-   <td>Airtel Money, Africell Money, MTN Mobile Money, UTL M-Sente, SMART Mobile Money, Vodacom M-Pesa, Safaricom M-Pesa
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Businesses
-   </td>
-   <td>amenity
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>shop
-   </td>
-   <td>alcohol, art, bakery, beauty, beverages, bicycle, books, butcher, car, car_parts, car_repair,charcoal, chemist, clothes, convenience, copyshop, cosmetics, electronics, food, furniture, greengrocer, hairdresser, houseware, jewelry, kiosk, mobile_phone, pastry, shoes, stationary, supermarket, tailor, yes
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Markets
-   </td>
-   <td>amenity
-   </td>
-   <td>marketplace
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>marketplace:type
-   </td>
-   <td><agricultural, clothes,mixed>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="8" >Boundaries and places
-   </td>
-   <td rowspan="4" >Administrative boundaries
-   </td>
-   <td>boundary
-   </td>
-   <td>administrative
-   </td>
-   <td>Designates an area as an administrative area
-   </td>
-  </tr>
-  <tr>
-   <td>admin_level
-   </td>
-   <td><1 to 10>
-   </td>
-   <td><a href="https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries">Indicates the level of an administrative boundary according to country specific guides</a>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:*
-   </td>
-   <td><name of administrative area>
-   </td>
-   <td>addr: to be followed by the administrative designation (i.e. addr:district, addr:village)
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><name of administrative area>
-   </td>
-   <td><em>Official or most commonly used name of administrative area</em>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="4" >Places (Villages, towns, cities)
-   </td>
-   <td>place
-   </td>
-   <td>city, suburb, town, village, hamlet, <other>
-   </td>
-   <td><em>Place type, generally based on population size</em>
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><name of the place>
-   </td>
-   <td><em>Official or most commonly used name of the place</em>
-   </td>
-  </tr>
-  <tr>
-   <td>alt_name
-   </td>
-   <td><if alternative place name>
-   </td>
-   <td><em>Unofficial or secondary name of the place</em>
-   </td>
-  </tr>
-  <tr>
-   <td>population
-   </td>
-   <td><number>
-   </td>
-   <td>Official or estimated population size
-   </td>
-  </tr>
-</table>
-
-<hr />
-
-<p>[1] Omidyar Network: <a href="https://www.omidyar.com/blog/how-map-can-change-world-state-map-us-2015-conference-emphasizes-role-geospatial-data-property">https://www.omidyar.com/blog/how-map-can-change-world-state-map-us-2015-conference-emphasizes-role-geospatial-data-property</a></p>
-</article>
+  </div></article>
 
       
 <div class="align-center book-git-footer justify-between">
     
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/edit/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/SDG-Goal-1.md" target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/gpsdd-documentation/edit/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/SDG-Goal-8.md" target="_blank" rel="noopener">
        Edit this page on GitHub
     </a>
   </div>
   
   
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/commit/aa88b6f311a8fbf6beeb7beaa6b20c500f24009b" title='Last modified May 24, 2019 15:15 UTC by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/gpsdd-documentation/commit/afe66fda90d2d146e7374acef0b4de3cdb7f5cc0" title='Last modified May 24, 2019 16:57 UTC by jessbeutler' target="_blank" rel="noopener">
       <strong>Last Modified:</strong> May 24, 2019
     </a>
   </div>
