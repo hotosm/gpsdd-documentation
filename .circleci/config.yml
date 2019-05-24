@@ -1,14 +1,37 @@
 version: 2
 jobs:
-  build:
+
+  search:
     working_directory: ~/build
     docker:
-      - image: cibuilds/hugo:0.54
-
+      - image: node:8.10.0
     steps:
       - attach_workspace:
           at: ~/build
       - checkout
+      - run: mkdir static
+      - run:
+          name: install node dependencies
+          command: npm install 
+      - run:
+          name: build indexes
+          command:  node ./.build_scripts/build_index.js
+      - run:
+          name: show static contents
+          command: ls static
+      - persist_to_workspace:
+          root: .
+          paths: static
+
+  build:
+    working_directory: ~/build
+    docker:
+      - image: cibuilds/hugo:latest
+
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/build
       - run: git submodule sync && git submodule update --init
       - run: HUGO_ENV=production hugo
       - run:
@@ -68,7 +91,8 @@ jobs:
       - persist_to_workspace:
           root: .
           paths: public
-  
+
+
   deploy:
     working_directory: ~/build
     docker:
@@ -86,7 +110,7 @@ jobs:
             git config user.name "ci-build"
       - add_ssh_keys:
           fingerprints:
-            - ####  CHANGE ME  #####
+            - "e3:ca:8d:a9:2b:30:12:0d:5d:00:ae:03:c8:be:cc:28"
       - run: 
           name: list files pushed
           command: ls public
@@ -99,7 +123,13 @@ workflows:
 
   build_and_pdf:
     jobs:
+      - search:
+          filters:
+            branches:
+              only: master
       - build:
+          requires:
+            - search
           filters:
             branches:
               only: master
