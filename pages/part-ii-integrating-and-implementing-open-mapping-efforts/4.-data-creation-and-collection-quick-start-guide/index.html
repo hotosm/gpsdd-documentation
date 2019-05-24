@@ -1,0 +1,538 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPSDD Documentation</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../">
+        <img class="logo" src="../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>GPSDD Documentation</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../pages/part-i-introduction/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../pdfs/GPSDD_Documentation.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
+    <div class="search-results">
+      <ul class="results-list"></ul>
+    </div>
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../pages/part-i-introduction/">
+    P a R T I Introduction</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/part-ii-integrating-and-implementing-open-mapping-efforts/1.-setting-the-stage-for-program-sustainability/">
+    1. Setting the Stage for Program Sustainability</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/">
+    2. Integrating Workflow Into Existing Projects</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/">
+    3. Designing an Open Mapping Project</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/" class="active">
+    4. Data Creation and Collection Quick Start Guide</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/">
+    5. Quality Control and Assurance</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/">
+    6. Using Open Data and Maps for Analysis, Display and Decision Making</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-4/">
+    S D G Goal 4</a>
+    </li>
+    
+    <li>
+      <a href="../../../pages/example/">
+    Example</a>
+    </li>
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" />
+  </label>
+  <strong>
+    4. Data Creation and Collection Quick Start Guide</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1></h1>
+    <a href="../../../pdfs/4.-Data-Creation-and-Collection:-Quick-Start-Guide.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<h2 id="4-data-creation-collection-quick-start-guide">4. Data Creation &amp; Collection: Quick Start Guide</h2>
+
+<p>Creating data for OpenStreetMap typically takes two forms: remote mapping and field data collection. Remote mapping is the process of tracing infrastructure such as buildings and roads into OpenStreetMap using aerial or satellite imagery. This process allows for volunteers and team members to create basemaps anywhere in the world with only a computer and internet connection.</p>
+
+<p>Collecting data on the ground is an integral part of editing OSM. This data is typically richer in detail and more accurate than map data that is generated solely by remote tracing. Mappers can choose from a number of free and open tools that facilitate on-the-ground data collection in both online and offline settings.</p>
+
+<h3 id="4-1-remote-mapping-mapathons-learning-how-to-map">4.1 Remote Mapping: Mapathons &amp; Learning How to Map</h3>
+
+<p>Open mapping techniques, particularly editing OSM, are easy to learn and present a low barrier to entry for new contributors. Volunteer mappers can learn through in-person trainings, while attending a mapathon, and/or from a variety of online tutorials and videos. The OSM community has created a wide variety of online tools to learn how to map, including:</p>
+
+<ul>
+<li>LearnOSM, which includes instructions for learning how to map in 17 languages;</li>
+<li>HOT Toolbox;</li>
+<li>HOT’s Learn to Map! Youtube playlist;</li>
+<li>MapGive, which offers extensive video tutorials on mapping for humanitarian efforts;</li>
+<li>Missing Map’s Beginner’s Guide;</li>
+<li>Mapbox’s visual guide to editing OSM; and</li>
+<li>The OSM Wiki page to find out more about the communities in your area.</li>
+</ul>
+
+<p>Humanitarian and development organizations and governments host virtual and in-person mapathon events to engage volunteers in contributing to crowdsourced mapping projects. The typical objective of a mapathon is to provide humanitarian and development efforts with improved access to data in OSM. A typical mapathon asks participants to edit OSM for a target area, provides training for new mappers, and may feature remarks or a presentation on the purpose and goals of the mapping project.</p>
+
+<p>Mapathon planning resources include:</p>
+
+<ul>
+<li>MapGive in a Box</li>
+<li>Missing Maps’ Event Hosting guide</li>
+<li>HOT’s How to Host a Mapathon video.</li>
+</ul>
+
+<p>Remote mapping is also typically the first step in the field data collection workflow. Prior to going into the field, teams are encouraged to check OSM for completeness and temporal validity. If data for an area of interest is out of date or incomplete, teams should conduct remote mapping to complete an up-to-date basemap for field activities.</p>
+
+<p><strong>Tasking Manager</strong></p>
+
+<p>The HOT Tasking Manager is a mapping tool designed and built for the Humanitarian OpenStreetMap Team&rsquo;s collaborative mapping process in OpenStreetMap. The purpose of the tool is to divide up a mapping project into smaller tasks that can be completed rapidly with many people working on the same overall area. It shows which areas need to be mapped and which areas need the mapping validated.</p>
+
+<p>For more information and resources on the Tasking Manager, visit: <a href="https://github.com/hotosm/toolbox/wiki/3.1-Working-with-the-HOT-Tasking-Manager">https://github.com/hotosm/toolbox/wiki/3.1-Working-with-the-HOT-Tasking-Manager</a></p>
+
+<p>There are several ways to edit in OpenStreetMap. The two most commonly used tools and best programs for mapping projects are iD editor and JOSM.</p>
+
+<p><strong>iD Editor</strong></p>
+
+<p>The iD editor is a user-friendly tool that allows you to directly make changes in OpenStreetMap. iD is good for:</p>
+
+<ul>
+<li>Simple edits</li>
+<li>Fast Internet access to load the imagery and save the edits.</li>
+<li>Following a consistent and simple tagging scheme.</li>
+<li>When you are restricted from installing a program on the computer you are using.</li>
+</ul>
+
+<p><strong>Java OpenStreetMap Editor (JOSM)</strong></p>
+
+<p>JOSM (Java OpenStreetMap Editor) is an open source editor for OpenStreetMap data. JOSM is best for:</p>
+
+<ul>
+<li>Adding many buildings (See buildings_tool plugin).</li>
+<li>Editing many polygons or lines that already exist.</li>
+<li>When you are on an unreliable Internet connection or offline.</li>
+<li>Using a specific tagging scheme (or custom presets).</li>
+</ul>
+
+<p>For more information and resources on iD Editor and JOSM, visit <a href="https://github.com/hotosm/toolbox/wiki/3.3-Editing-with-iD-and-JOSM">https://github.com/hotosm/toolbox/wiki/3.3-Editing-with-iD-and-JOSM</a></p>
+
+<h3 id="4-2-tools-for-field-data-collection">4.2 Tools for Field Data Collection</h3>
+
+<p>Several mobile applications exist to assist with field data collection. The following are Data Collection Tools commonly used in the HOT workflow. A detailed overview of these and other data collection tools can be found at [insert link]. Choosing an application to use depends on mobile device capability, varying set-up requirements, and survey needs. It is also important to note that some tools require others (i.e. OMK requires use of ODK), and others can be complementary (i.e. OSMTracker or Mapillary can be used to supplement data collection with ODK, Kobo, and OMK).</p>
+
+<table>
+  <tr>
+   <td><strong>I want to collect...</strong>
+   </td>
+   <td><strong>ODK</strong>
+   </td>
+   <td><strong>Kobo</strong>
+   </td>
+   <td><strong>OMK</strong>
+   </td>
+   <td><strong>Maps.</strong>
+<p>
+<strong>me</strong>
+   </td>
+   <td><strong>OSM</strong>
+<p>
+<strong>Tracker</strong>
+   </td>
+   <td>
+<strong>Mapillary</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Qualitative survey data
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Quantitative survey data
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>GPS Points
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Photos attached to GPS Points
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>GPX Tracks
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>Streetview imagery
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+  </tr>
+  <tr>
+   <td>Data attached to OSM points of interest
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Data attached to OSM polygons (i.e. buildings)
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Data attached to OSM ways (i.e. roads)
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td>✅
+   </td>
+   <td><strong>X</strong>
+   </td>
+   <td><strong>X</strong>
+   </td>
+  </tr>
+</table>
+
+<p><strong>OpenDataKit (ODK)</strong></p>
+
+<p>ODK is a free an open-source set of tools which help organizations author, field, and manage mobile data collection solutions. ODK Collect is part of ODK and is an Android app that replaces paper forms used in survey-based data gathering.</p>
+
+<p>Use OpenDataKit (ODK) if:</p>
+
+<ul>
+<li>You have access to mobile devices but they have limited RAM &amp; storage</li>
+<li>You do not need to collect data for buildings in OSM OR you are able to manually transfer data collected as points to OSM polygons after data collection.</li>
+<li>Someone on your team is comfortable developing or learning to develop ODK forms using spreadsheet software.</li>
+</ul>
+
+<p><strong>OpenMapKit (OMK)</strong></p>
+
+<p>OMK is an extension that launches directly from within ODK Collect when the OSM question type is enabled in a standard survey. It is what allows you to browse OSM features, and to create and edit OSM tags.</p>
+
+<p>Use OpenMapKit (OMK) if:</p>
+
+<ul>
+<li>You have access to mobile devices with sufficient RAM &amp; storage</li>
+<li>You need to collect data for buildings in OSM</li>
+<li>You have the capacity for more intensive set-up prior to data collection</li>
+</ul>
+
+<p><strong>KoboCollect</strong></p>
+
+<p>KoboCollect is in almost all ways similar to ODK Collect, and is built on top of the ODK platform. Kobo also has prebuilt analysis tools and is another popular option.</p>
+
+<p>Use KoboCollect if:</p>
+
+<ul>
+<li>You have access to mobile devices with sufficient RAM &amp; storage</li>
+<li>You would like to use a form builder to build your survey (as opposed to building forms in spreadsheet software, as with ODK)</li>
+<li>You do not need to collect data for buildings in OSM OR you are able to manually transfer data collected as points to OSM polygons after data collection.</li>
+</ul>
+
+<p><strong>OSMTracker</strong></p>
+
+<p>OSM Tracker is “an offline GPS tracker designed for collecting points of interest (POI) to be added to the map and for recording GPX tracks.” OSM Tracker is free and open-source. Several projects have used OSMTracker to complement ODK/OMK/Kobo survey collection.</p>
+
+<p>Use OSMTracker if:</p>
+
+<ul>
+<li>You need to collect waypoints and GPX tracks.</li>
+<li>You need to collect photos with waypoints.</li>
+<li>You need to map points of interest.</li>
+<li>You do not need to conduct a survey.</li>
+</ul>
+
+<p><strong>Maps.Me</strong></p>
+
+<p>Maps.me is a navigation application that uses OpenStreetMap data, and can be used offline. It is suitable for collection Point of Interest (POI) information, as far as these fit within the types of data that Maps.me shows you on the map.</p>
+
+<p>Use Maps.me if:</p>
+
+<ul>
+<li>You need to map points of interest.</li>
+<li>You want to upload points to OSM without data cleaning or additional processing.<br /></li>
+<li>You need an application for navigation.</li>
+</ul>
+
+<p><strong>Mapillary</strong></p>
+
+<p>Mapillary is an open-source street view imagery capture application that integrates with OpenStreetMap. Several projects have used OSMTracker to complement ODK/OMK/Kobo survey collection.</p>
+
+<p>Use Mapillary if:</p>
+
+<ul>
+<li>You need to collect street view imagery.<br /></li>
+</ul>
+
+<p>For more information and resources (including skills and tools necessary) on data collection applications, visit <a href="https://github.com/hotosm/toolbox/wiki/4.2-Data-collection-applications">https://github.com/hotosm/toolbox/wiki/4.2-Data-collection-application</a></p>
+
+<p><strong>Data Collection Servers</strong></p>
+
+<p>When beginning a mapping project, many organizations ask if they need to have a server. After collecting data, you’ll need to get the data from the devices. Sometimes, it works to simply collect and process data directly from the data collection devices. However, this does not scale well when you get more people collecting data, and also means your data is not backed up - if you lose the device, you can lose the data. Prior to data collection, it is important to have a data management strategy that is suited for your operations.</p>
+
+<p>Using a data collection server allows for much better management of forms and deployments, collection and aggregation of responses, and can offer additional features for viewing, analysing and exporting data. Use of a server may be restricted by available resources (cost of a physical server) and/or internet connection (access to cloud server). The most used options are:</p>
+
+<ul>
+<li><strong>POSM</strong> - a physical server that contains a set of OpenStreetMap tools, including OpenMapKit server. POSMs allow multiple users to connect and upload data from data collection devices to a central location without the need for internet access. This data can then be aggregated using the OMK Server and synced with OSM directly or downloaded for analysis and processing.</li>
+<li><strong>OpenMapKit Server</strong> - OpenMapKit Server is a cloud based storage system for specially designed to store and compile OpenMapKit data. Data collected through OpenDataKit can also be uploaded to an OpenMapKit Server.</li>
+<li><strong>Kobo Toolbox</strong> - An online application that allows users to build Kobo/ODK surveys as well as store, aggregate, and perform analysis of Kobo/ODK data.</li>
+<li><strong>ODK Aggregate</strong> - ODK Aggregate is an online application (local options possible) that stores, aggregates, and allows users to perform basic analysis on ODK data.</li>
+</ul>
+
+<p>More information and resources on servers can be found at:</p>
+
+<p>If the use of a server is not available to you, it is still possible and crucial to store backups of data. In this case, data will need to be downloaded or otherwise shared with a central location, such as a laptop computer, and cloned to a secondary location such as a hard-drive or second computer. For more information about a server-less data management workflow, visit <a href="https://github.com/hotosm/toolbox/wiki/5.1.2-Serverless-Data">https://github.com/hotosm/toolbox/wiki/5.1.2-Serverless-Data</a></p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/gpsdd-documentation/edit/master/content/pages/PART-II-Integrating-and-Implementing-Open-Mapping-Efforts/4.-Data-Creation-and-Collection:-Quick-Start-Guide.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/gpsdd-documentation/commit/c8b60288c02338e7f04d7ccdcdd07eeff341fdf3" title='Last modified May 23, 2019 16:06 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> May 23, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/gpsdd-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+  <script src="../../../js/search.js"></script>
+  
+</body>
+
+</html>

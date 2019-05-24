@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on GPSDD Documentation</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on GPSDD Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/pages/part-i-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-i-introduction/</guid>
+      <description>PART I - Introduction Who Is This Guide For? This guide is for national and sub-national governments, international organizations, and their partners who are setting policy and plans and/or designing implementation programs, for data needs in meeting and monitoring the SDGs. It gives policy-makers insight on the strategic benefit of open mapping, and program and technical implementers pointers to in-depth guidance and access to an expert community for realizing open mapping projects.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/1.-setting-the-stage-for-program-sustainability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/1.-setting-the-stage-for-program-sustainability/</guid>
+      <description>PART II - Integrating and Implementing Open Mapping Efforts 1. Setting the Stage for Program Sustainability Maps have the power to tell stories about people and places and the ability to show patterns of ideas or issues through space and time. Citizen-generated data can leverage the local knowledge and expertise of individuals living in these communities to participate in addressing and identifying the societal issues being faced. Combining the power of maps and the value of community-led data collection enables a new way of understanding a group of people that a traditional approach to surveying, for example, may be unable to capture.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/</guid>
+      <description>2. Integrating workflow into existing projects Many organizations want to incorporate open mapping into their operations but don’t know where to start, believe that it requires rebuilding workflows from scratch, or that their operations will not be able to integrate open mapping. However, the open mapping workflow can be, and should be, integrated into existing workflows. The first step towards using open mapping is analyzing how existing projects and workflows can be altered and improved with integration.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</guid>
+      <description>3. Designing an Open Mapping Project Designing and implementing an open mapping project can be complex, especially if there are ambitious mapping goals or a large group of partners involved. Several resources exist that provide further detail on navigating the mapping process:
+ Open Cities Project Guide - the World Bank Global Facility for Disaster Reduction and Recovery (GFDRR) and Humanitarian OpenStreetMap Team (HOT) published a guide that can be downloaded at http://www.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</guid>
+      <description>4. Data Creation &amp;amp; Collection: Quick Start Guide Creating data for OpenStreetMap typically takes two forms: remote mapping and field data collection. Remote mapping is the process of tracing infrastructure such as buildings and roads into OpenStreetMap using aerial or satellite imagery. This process allows for volunteers and team members to create basemaps anywhere in the world with only a computer and internet connection.
+Collecting data on the ground is an integral part of editing OSM.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/</guid>
+      <description>5. Quality control/assurance Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</guid>
+      <description>6. Using Open Data &amp;amp; Maps for Analysis, Display and Decision-Making There are a handful of free tools available to extract and utilize OSM data for decision-making. By either using OSM data in conjunction with free population data sets from, for example, World Pop or other thematic datasets from the Humanitarian Data Exchange or even combining it with your own generated data, various tools can be used to clean, analyze and visualize information to inform project planning and decision-making.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-4/</guid>
+      <description>Goal 4: Ensure inclusive and quality education for all and promote lifelong learning “Basic literacy skills across the world have improved tremendously, yet bolder efforts are needed to achieve universal education goals for all. For example, the world has achieved equality in primary education between girls and boys, but few countries have achieved that target at all levels of education.”
+Open mapping provides a two-fold benefit towards reaching the SDG for education: assisting partners, governments, and local communities understand gaps in services and distribution of educational facilities, as well as providing an opportunity for individuals in these groups to gain technical and vocational skills such as GIS and surveying.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pages/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/example/</guid>
+      <description>Example This is a documentation site example file. Write your content in markdown. You can edit directly in Github or take your content into a Markdown editor like Dillinger and you can see how your content looks while you edit.
+Happy Editing!</description>
+    </item>
+    
+  </channel>
+</rss>
