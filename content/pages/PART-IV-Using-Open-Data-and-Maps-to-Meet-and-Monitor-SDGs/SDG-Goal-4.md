@@ -1,5 +1,5 @@
 ---
-title: Goal 4
+title: Goal 4 - Quality Education
 ---
 
 ## Ensure inclusive and quality education for all and promote lifelong learning 
