@@ -1,12 +1,12 @@
 languageCode = "en-us"
-title = "GPSDD Documentation"
+title = "My New HOT Documenation Site" #<-- change me
 theme = "book"
 DefaultContentLanguage = "en"
 relativeurls = true
 enableGitInfo = true
 
 [params]
-    BookRepo = "https://github.com/hotosm/gpsdd-documentation"
+    BookRepo = "https://github.com/hotosm/" #<-- change me
     BookShowToC = false
     BookEditPath = "/edit/master/content/"
 
