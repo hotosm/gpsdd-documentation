@@ -3,6 +3,8 @@ title: Goal 4 - Quality Education
 weight: 4
 ---
 
+![GAL_peru](https://github.com/hotosm/gpsdd-documentation/blob/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/sdg_photos/Unknown-2.jpeg)
+
 ## Ensure inclusive and quality education for all and promote lifelong learning 
 
 _“Basic literacy skills across the world have improved tremendously, yet bolder efforts are needed to achieve universal education goals for all. For example, the world has achieved equality in primary education between girls and boys, but few countries have achieved that target at all levels of education.”_
