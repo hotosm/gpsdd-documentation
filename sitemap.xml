@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/pages/part-i-introduction/</loc>
+    <lastmod>2019-05-24T12:18:17-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/</loc>
     <lastmod>2019-05-24T09:48:29-04:00</lastmod>
   </url>
@@ -89,7 +94,6 @@
   
   <url>
     <loc>/pages/</loc>
-    <lastmod>2019-05-24T11:50:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
