@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GPSDD Documentation</title>
+    <link>/pages/part-iii-case-studies-in-integration-and-implementation/</link>
+    <description>Recent content on GPSDD Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/part-iii-case-studies-in-integration-and-implementation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

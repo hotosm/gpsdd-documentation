@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>/pages/part-iii-case-studies-in-integration-and-implementation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/pages/example/</loc>
     <priority>0</priority>
   </url>
