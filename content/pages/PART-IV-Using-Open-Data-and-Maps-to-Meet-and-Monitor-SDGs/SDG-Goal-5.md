@@ -1,5 +1,6 @@
 ---
 title: Goal 5 - Gender Equality
+weight: 5
 ---
 
 ## Achieve gender equality and empower all women and girls
