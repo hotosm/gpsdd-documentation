@@ -1,8 +1,8 @@
 ---
-title: Goal 1
+title: Goal 1 - No Poverty
 ---
 
-## Goal 1: End poverty in all its forms everywhere
+## End poverty in all its forms everywhere
 
 _“Extreme poverty rates have fallen by more than half since 1990. While this is a remarkable achievement, one-in-five people in developing regions still live on less than $1.90 a day. Millions more make little more than this daily amount and are at risk of slipping back into extreme poverty.”_
 
