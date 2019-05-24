@@ -133,7 +133,7 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-15/">
+      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-15/" class="active">
     Goal 15 - Life on Land</a>
     </li>
     
@@ -153,7 +153,7 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-7/" class="active">
+      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-7/">
     Goal 7 - Affordable and Clean Energy</a>
     </li>
     
@@ -191,13 +191,13 @@ https://github.com/hotosm/hugo-book
     <img src="../../../svg/menu.svg" />
   </label>
   <strong>
-    Goal 7 - Affordable and Clean Energy</strong>
+    Goal 15 - Life on Land</strong>
 </header>
 
       
 <article class="markdown">
-  <div class="markdown__header">  <h1>Goal 7 - Affordable and Clean Energy</h1>
-    <a href="../../../pdfs/SDG-Goal-7.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+  <div class="markdown__header">  <h1>Goal 15 - Life on Land</h1>
+    <a href="../../../pdfs/SDG-Goal-15.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -207,22 +207,25 @@ https://github.com/hotosm/hugo-book
     </a>
   </div>
 
-<h2 id="ensure-access-to-affordable-reliable-sustainable-and-modern-energy-for-all">Ensure access to affordable, reliable, sustainable and modern energy for all</h2>
+<h2 id="sustainably-manage-forests-combat-desertification-halt-and-reverse-land-degradation-halt-biodiversity-loss">Sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss</h2>
 
-<p><em>“Energy is central to nearly every major challenge and opportunity the world faces today. Be it for jobs, security, climate change, food production or increasing incomes, access to energy for all is essential. Transitioning the global economy towards clean and sustainable sources of energy is one of our greatest challenges in the coming decades. Sustainable energy is an opportunity – it transforms lives, economies and the planet.”</em></p>
+<p><em>“Forests cover 30 percent of the Earth’s surface and in addition to providing food security and shelter, forests are key to combating climate change, protecting biodiversity and the homes of the indigenous population. Thirteen million hectares of forests are being lost every year while the persistent degradation of drylands has led to the desertification of 3.6 billion hectares.”</em></p>
 
-<p>OpenStreetMap serves as a key database for understanding global electrification rates on a wide scale through storing information from power grid networks and infrastructure down to information needed to understand individual household and commercial access to electricity. Open mapping of electricity access can help partners and organizations share resources and understanding of where people are accessing electricity, and more importantly, where people do not have access.</p>
+<p>Environmental mapping projects help monitor change in environmental features such as coastal erosion, wetlands, and local biodiversity to tackle issues such as climate change, flooding and sustainable livelihoods. Understanding land use and change through mapping can help local communities and organizations develop and maintain sustainable practices.</p>
 
 <h3 id="what-has-been-done">What has been done?</h3>
 
-<p><strong><a href="https://www.hotosm.org/projects/mini-grids">Mini Grids (Tanzania):</a></strong> In Tanzania, 80% of the population live in rural areas and only 16% of people have access to electricity. Due to the remote nature of these unelectrified villages, the government of Tanzania aims to target the best areas to build off-grid electrification. To support this goal, HOT completed a large-scale digitization of rural Tanzania using mapping and household surveys, including over four million buildings and 1,300 villages. By collecting this highly detailed data of the settlements, HOT enabled the government and private electricity and renewable energy providers to predict demand and determine where grid and off-grid connections can be made.</p>
+<p><strong><a href="https://www.hotosm.org/projects/ymca-computer-training-centre-and-digital-studio-yplus-mapping-local-ecotourism/">The Gambia YMCA’s Computer Training Centre and Digital Studio</a></strong> is working with the Gambia Tourism Board and the National Environmental Agency to identify ecotourism areas and capture the current state of vegetation and wildlife to stimulate The Gambia’s tourism industry and assist in planning efforts focused on environmental conservation and preservation.</p>
+
+<p><strong><a href="https://www.hotosm.org/updates/2017-10-02_microgrants_humanitarian_mapping_of_coastal_wetlands_and_fishing_livelihoods_for">YouthMappers and COASTMAP-URABÁ:</a></strong> Last year, mapping groups in Universidad de Antioquia (Medellín, Colombia) recently joined efforts with an aim to provide an open-source map of the coastal zone of Turbo municipality. The main goal was to put on the map the fishing communities scattered along the coastline. An area of particular interest is El Uno Bay, a peri-urban fishing village severely affected by La Niña 2010-2011. In addition, the group aimed to map mangroves and freshwater wetlands within the area because they are important ecosystems for subsistence of coastal livelihoods. The ultimate objective of COASTMAP-URABÁ is to highlight that coastal wetlands are fundamental elements for the resilience of both fishing livelihoods and the entire coastal zone.</p>
 
 <h3 id="what-else-can-be-mapped">What else can be mapped?</h3>
 
 <ul>
-<li>Add infrastructure such as power lines and plants to the map and make it accessible, allowing for accurate assessments of the proportion of population that is connected to the grid.</li>
-<li>Survey households and commercial properties for access to and source of electricity</li>
-<li>Survey structures for roof attributes to determine solar compatibility</li>
+<li>Adding boundaries of designated protected areas to OpenStreetMap</li>
+<li>Mapping buildings and infrastructure in and around designated protected areas to understand and monitor encroachment</li>
+<li>Mapping wetlands and coastlines to understand erosion and impacts of climate change.</li>
+<li>Mapping land use areas to understand change and development</li>
 </ul>
 
 <h3 id="osm-data-model">OSM Data Model</h3>
@@ -239,87 +242,139 @@ https://github.com/hotosm/hugo-book
    </td>
   </tr>
   <tr>
-   <td rowspan="3" >Structural
+   <td rowspan="4" >Protected Area Boundaries
    </td>
-   <td>electricity
+   <td>boundary
    </td>
-   <td>yes, no, grid, generator, solar, wind
+   <td>protected_area
    </td>
-   <td>Used to indicate the source of the power generated
-   </td>
-  </tr>
-  <tr>
-   <td>roof:material
-   </td>
-   <td>metal, thatch, roof_tiles, wood, concrete, grass
-   </td>
-   <td>Material(s) of roof
+   <td>Designates boundary for protected area
    </td>
   </tr>
   <tr>
-   <td>roof:shape
+   <td>protect_class
    </td>
-   <td>flat, skillion, gabled, hipped, pyramidal, round
+   <td><protection class number>
    </td>
-   <td>Shape of roof
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="7" >Power grid/network
-   </td>
-   <td>power
-   </td>
-   <td>line, minor_line
-   </td>
-   <td>A way following the path of (overground) power cables. For minor power lines with poles and not towers, use power=minor_line.
+   <td>Protection level as defined by country https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dprotected_area#Protect_classes_for_various_countries
    </td>
   </tr>
   <tr>
-   <td>power
+   <td>protection_title
    </td>
-   <td>pole, tower, plant, generator
+   <td><protection title>
    </td>
-   <td>Power grid features
-   </td>
-  </tr>
-  <tr>
-   <td>generator:source
-   </td>
-   <td>biomass, coal, gas, oil, diesel, waste, wind, solar, hydro
-   </td>
-   <td>Source of the energy generated by a power=generator device
+   <td><em>Title or type of protection, not the name of the protected area</em>
    </td>
   </tr>
   <tr>
-   <td>generator:method
+   <td>name
    </td>
-   <td>wind_turbine, water-storage, water-pumped-storage, thermal, photovoltaic, combustion, gasification
+   <td><protection area name>
    </td>
-   <td>Method by which the energy is generated by a power=generator device
-   </td>
-  </tr>
-  <tr>
-   <td>generator:output
-   </td>
-   <td>electricity, heat, biogas
-   </td>
-   <td>Used in conjunction with power=generator
+   <td><em>Name of the protected area</em>
    </td>
   </tr>
   <tr>
-   <td>operator
+   <td rowspan="6" >Landuse
    </td>
-   <td><operator name>
+   <td>landuse
    </td>
-   <td><em>Name of operator</em>
+   <td>allotments, farmland, forest, meadow, orchard, plant_nursery, vineyard, basin, brownfield, commercial, construction, depot, residential, industrial, railway, retail, salt_pond, landfill, quarry, reservoir
+   </td>
+   <td>
    </td>
   </tr>
   <tr>
-   <td>operator:type
+   <td>man_made
    </td>
-   <td>public, private
+   <td>wastewater_plant, reservoir_covered,
    </td>
-   <td><em>Type of operator</em>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>leisure
+   </td>
+   <td>nature_preserve, park
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>natural
+   </td>
+   <td>water, grassland, wetland, glacier, beach, reef, wood, scrub, heath
+   </td>
+   <td>Used to describe natural physical land features
+   </td>
+  </tr>
+  <tr>
+   <td>wetland
+   </td>
+   <td>wet_meadow, bog, fen, marsh, swamp, tidal flat <other>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>name
+   </td>
+   <td><name>
+   </td>
+   <td>Used to describe natural area subject to inundation or with waterlogged ground
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="5" >Waterways
+   </td>
+   <td>waterway
+   </td>
+   <td>river, riverbank, stream, canal, drain, ditch, dam
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>name
+   </td>
+   <td><name>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>intermittent
+   </td>
+   <td>yes
+   </td>
+   <td>Indicates that the waterway is usually dry, even during the wet season.
+   </td>
+  </tr>
+  <tr>
+   <td>seasonal
+   </td>
+   <td>yes, spring, summer, autumn, winter, wet_season, dry_season
+   </td>
+   <td>Indicates that the waterway has a seasonal flow
+   </td>
+  </tr>
+  <tr>
+   <td>destination
+   </td>
+   <td><name>
+   </td>
+   <td>name of body of water the feature flows into
+   </td>
+  </tr>
+  <tr>
+   <td>Monitoring
+   </td>
+   <td>man_made
+   </td>
+   <td>monitoring_station
+   </td>
+   <td>
    </td>
   </tr>
 </table>
@@ -329,14 +384,14 @@ https://github.com/hotosm/hugo-book
 <div class="align-center book-git-footer justify-between">
     
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/edit/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/SDG-Goal-7.md" target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/gpsdd-documentation/edit/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/SDG-Goal-15.md" target="_blank" rel="noopener">
        Edit this page on GitHub
     </a>
   </div>
   
   
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/commit/c5971040b509ab9870c20a21e61950abc6b0246c" title='Last modified May 24, 2019 15:11 UTC by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/gpsdd-documentation/commit/2751b6e8b9863a7c15917b3ae4f5eb5e714908ca" title='Last modified May 24, 2019 15:14 UTC by jessbeutler' target="_blank" rel="noopener">
       <strong>Last Modified:</strong> May 24, 2019
     </a>
   </div>
