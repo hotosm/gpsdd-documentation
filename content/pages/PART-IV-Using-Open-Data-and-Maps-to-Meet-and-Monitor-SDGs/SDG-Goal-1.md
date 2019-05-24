@@ -1,5 +1,6 @@
 ---
 title: Goal 1 - No Poverty
+weight: 1
 ---
 
 ## End poverty in all its forms everywhere
