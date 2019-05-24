@@ -169,7 +169,7 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-9/">
+      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-9/" class="active">
     Goal 9 - Industry, Innovation, and Infrastructure</a>
     </li>
     
@@ -199,7 +199,7 @@ https://github.com/hotosm/hugo-book
     </li>
     
     <li>
-      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-7/" class="active">
+      <a href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-7/">
     Goal 7 - Affordable and Clean Energy</a>
     </li>
     
@@ -232,13 +232,13 @@ https://github.com/hotosm/hugo-book
     <img src="../../../svg/menu.svg" />
   </label>
   <strong>
-    Goal 7 - Affordable and Clean Energy</strong>
+    Goal 9 - Industry, Innovation, and Infrastructure</strong>
 </header>
 
       
 <article class="markdown">
-  <div class="markdown__header">  <h1>Goal 7 - Affordable and Clean Energy</h1>
-    <a href="../../../pdfs/SDG-Goal-7.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+  <div class="markdown__header">  <h1>Goal 9 - Industry, Innovation, and Infrastructure</h1>
+    <a href="../../../pdfs/SDG-Goal-9.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -246,138 +246,20 @@ https://github.com/hotosm/hugo-book
         </g>
       </svg>
     </a>
-  </div>
-
-<h2 id="ensure-access-to-affordable-reliable-sustainable-and-modern-energy-for-all">Ensure access to affordable, reliable, sustainable and modern energy for all</h2>
-
-<p><em>“Energy is central to nearly every major challenge and opportunity the world faces today. Be it for jobs, security, climate change, food production or increasing incomes, access to energy for all is essential. Transitioning the global economy towards clean and sustainable sources of energy is one of our greatest challenges in the coming decades. Sustainable energy is an opportunity – it transforms lives, economies and the planet.”</em></p>
-
-<p>OpenStreetMap serves as a key database for understanding global electrification rates on a wide scale through storing information from power grid networks and infrastructure down to information needed to understand individual household and commercial access to electricity. Open mapping of electricity access can help partners and organizations share resources and understanding of where people are accessing electricity, and more importantly, where people do not have access.</p>
-
-<h3 id="what-has-been-done">What has been done?</h3>
-
-<p><strong><a href="https://www.hotosm.org/projects/mini-grids">Mini Grids (Tanzania):</a></strong> In Tanzania, 80% of the population live in rural areas and only 16% of people have access to electricity. Due to the remote nature of these unelectrified villages, the government of Tanzania aims to target the best areas to build off-grid electrification. To support this goal, HOT completed a large-scale digitization of rural Tanzania using mapping and household surveys, including over four million buildings and 1,300 villages. By collecting this highly detailed data of the settlements, HOT enabled the government and private electricity and renewable energy providers to predict demand and determine where grid and off-grid connections can be made.</p>
-
-<h3 id="what-else-can-be-mapped">What else can be mapped?</h3>
-
-<ul>
-<li>Add infrastructure such as power lines and plants to the map and make it accessible, allowing for accurate assessments of the proportion of population that is connected to the grid.</li>
-<li>Survey households and commercial properties for access to and source of electricity</li>
-<li>Survey structures for roof attributes to determine solar compatibility</li>
-</ul>
-
-<h3 id="osm-data-model">OSM Data Model</h3>
-
-<table>
-  <tr>
-   <td>Category
-   </td>
-   <td>Key
-   </td>
-   <td>Value
-   </td>
-   <td>Description/notes
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="3" >Structural
-   </td>
-   <td>electricity
-   </td>
-   <td>yes, no, grid, generator, solar, wind
-   </td>
-   <td>Used to indicate the source of the power generated
-   </td>
-  </tr>
-  <tr>
-   <td>roof:material
-   </td>
-   <td>metal, thatch, roof_tiles, wood, concrete, grass
-   </td>
-   <td>Material(s) of roof
-   </td>
-  </tr>
-  <tr>
-   <td>roof:shape
-   </td>
-   <td>flat, skillion, gabled, hipped, pyramidal, round
-   </td>
-   <td>Shape of roof
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="7" >Power grid/network
-   </td>
-   <td>power
-   </td>
-   <td>line, minor_line
-   </td>
-   <td>A way following the path of (overground) power cables. For minor power lines with poles and not towers, use power=minor_line.
-   </td>
-  </tr>
-  <tr>
-   <td>power
-   </td>
-   <td>pole, tower, plant, generator
-   </td>
-   <td>Power grid features
-   </td>
-  </tr>
-  <tr>
-   <td>generator:source
-   </td>
-   <td>biomass, coal, gas, oil, diesel, waste, wind, solar, hydro
-   </td>
-   <td>Source of the energy generated by a power=generator device
-   </td>
-  </tr>
-  <tr>
-   <td>generator:method
-   </td>
-   <td>wind_turbine, water-storage, water-pumped-storage, thermal, photovoltaic, combustion, gasification
-   </td>
-   <td>Method by which the energy is generated by a power=generator device
-   </td>
-  </tr>
-  <tr>
-   <td>generator:output
-   </td>
-   <td>electricity, heat, biogas
-   </td>
-   <td>Used in conjunction with power=generator
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><operator name>
-   </td>
-   <td><em>Name of operator</em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator:type
-   </td>
-   <td>public, private
-   </td>
-   <td><em>Type of operator</em>
-   </td>
-  </tr>
-</table>
-</article>
+  </div></article>
 
       
 <div class="align-center book-git-footer justify-between">
     
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/edit/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/SDG-Goal-7.md" target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/gpsdd-documentation/edit/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/SDG-Goal-9.md" target="_blank" rel="noopener">
        Edit this page on GitHub
     </a>
   </div>
   
   
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/commit/c5971040b509ab9870c20a21e61950abc6b0246c" title='Last modified May 24, 2019 15:11 UTC by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/gpsdd-documentation/commit/7706df898340b5e17d7c8a888802af8fa74f4fde" title='Last modified May 24, 2019 16:58 UTC by jessbeutler' target="_blank" rel="noopener">
       <strong>Last Modified:</strong> May 24, 2019
     </a>
   </div>
