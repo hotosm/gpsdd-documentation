@@ -1,8 +1,8 @@
 ---
-title: Goal 3
+title: Goal 3 - Good Health and Wellbeing
 ---
 
-## Goal 3: Ensure healthy lives and promote well-being for all at all ages
+## Ensure healthy lives and promote well-being for all at all ages
 
 “Significant strides have been made in increasing life expectancy and reducing some of the common killers responsible for child and maternal mortality. Major progress has also been made on increasing access to clean water and sanitation, reducing malaria, tuberculosis, polio and the spread of HIV/AIDS. However, many more efforts are needed to control a wide range of diseases and address many different persistent and emerging health issues.”
 
