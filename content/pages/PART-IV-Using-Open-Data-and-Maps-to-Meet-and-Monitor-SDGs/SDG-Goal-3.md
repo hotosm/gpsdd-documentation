@@ -1,5 +1,6 @@
 ---
 title: Goal 3 - Good Health and Wellbeing
+weight: 3
 ---
 
 ## Ensure healthy lives and promote well-being for all at all ages
