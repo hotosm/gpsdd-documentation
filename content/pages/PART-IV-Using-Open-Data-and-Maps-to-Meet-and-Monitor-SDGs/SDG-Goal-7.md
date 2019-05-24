@@ -1,5 +1,5 @@
 ---
-title: Goal 7: Affordable and Clean Energy
+title: Goal 7 - Affordable and Clean Energy
 ---
 
 ## Ensure access to affordable, reliable, sustainable and modern energy for all
