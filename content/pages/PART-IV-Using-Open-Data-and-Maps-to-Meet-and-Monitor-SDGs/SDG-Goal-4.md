@@ -3,9 +3,7 @@ title: Goal 4 - Quality Education
 weight: 4
 ---
 
-<p align="center">
-  <img src="https://github.com/hotosm/gpsdd-documentation/blob/master/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/sdg_photos/Unknown-2.jpeg">
-</p>
+![GAL Photo](/content/pages/PART-IV-Using-Open-Data-and-Maps-to-Meet-and-Monitor-SDGs/sdg_photos/Unknown-2.jpeg)
 
 
 ## Ensure inclusive and quality education for all and promote lifelong learning 
