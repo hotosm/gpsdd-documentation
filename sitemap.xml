@@ -43,11 +43,6 @@
   </url>
   
   <url>
-    <loc>/pages/part-iii-case-studies-in-integration-and-implementation/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/pages/example/</loc>
     <priority>0</priority>
   </url>
@@ -96,6 +91,11 @@
     <loc>/pages/</loc>
     <lastmod>2019-05-24T11:50:00-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/part-iii-case-studies-in-integration-and-implementation/</loc>
+    <lastmod>2019-05-24T11:57:55-04:00</lastmod>
   </url>
   
   <url>
