@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Goal 1 - No Poverty</title>
+      <link>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-1/</guid>
+      <description>End poverty in all its forms everywhere “Extreme poverty rates have fallen by more than half since 1990. While this is a remarkable achievement, one-in-five people in developing regions still live on less than $1.90 a day. Millions more make little more than this daily amount and are at risk of slipping back into extreme poverty.”
+Poverty elimination projects to map low income (often slum) areas can support humanitarian and development programming.</description>
+    </item>
+    
+    <item>
       <title>Goal 2 - Zero Hunger</title>
       <link>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -155,16 +165,6 @@ Collecting data on the ground is an integral part of editing OSM.</description>
       <guid>/pages/example/</guid>
       <description>Example This is a documentation site example file. Write your content in markdown. You can edit directly in Github or take your content into a Markdown editor like Dillinger and you can see how your content looks while you edit.
 Happy Editing!</description>
-    </item>
-    
-    <item>
-      <title>Goal 1 - No Poverty</title>
-      <link>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-1/</guid>
-      <description>End poverty in all its forms everywhere “Extreme poverty rates have fallen by more than half since 1990. While this is a remarkable achievement, one-in-five people in developing regions still live on less than $1.90 a day. Millions more make little more than this daily amount and are at risk of slipping back into extreme poverty.”
-Poverty elimination projects to map low income (often slum) areas can support humanitarian and development programming.</description>
     </item>
     
     <item>
