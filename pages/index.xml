@@ -11,16 +11,6 @@
     
     
     <item>
-      <title>My New Title</title>
-      <link>/pages/example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/example/</guid>
-      <description>Example This is a documentation site example file. Write your content in markdown. You can edit directly in Github or take your content into a Markdown editor like Dillinger and you can see how your content looks while you edit.
-Happy Editing!</description>
-    </item>
-    
-    <item>
       <title>Part 1 - Introduction</title>
       <link>/pages/part-i-introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -93,6 +83,16 @@ Collecting data on the ground is an integral part of editing OSM.</description>
       <guid>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-4/</guid>
       <description>Goal 4: Ensure inclusive and quality education for all and promote lifelong learning “Basic literacy skills across the world have improved tremendously, yet bolder efforts are needed to achieve universal education goals for all. For example, the world has achieved equality in primary education between girls and boys, but few countries have achieved that target at all levels of education.”
 Open mapping provides a two-fold benefit towards reaching the SDG for education: assisting partners, governments, and local communities understand gaps in services and distribution of educational facilities, as well as providing an opportunity for individuals in these groups to gain technical and vocational skills such as GIS and surveying.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pages/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/example/</guid>
+      <description>Example This is a documentation site example file. Write your content in markdown. You can edit directly in Github or take your content into a Markdown editor like Dillinger and you can see how your content looks while you edit.
+Happy Editing!</description>
     </item>
     
   </channel>

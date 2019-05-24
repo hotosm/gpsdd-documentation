@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/pages/example/</loc>
-    <lastmod>2019-05-24T19:23:01+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/pages/part-i-introduction/</loc>
     <lastmod>2019-05-24T09:45:04-04:00</lastmod>
   </url>
@@ -50,6 +45,11 @@
   
   <url>
     <loc>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-4/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/example/</loc>
     <priority>0</priority>
   </url>
   
