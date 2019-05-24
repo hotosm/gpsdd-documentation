@@ -8,14 +8,14 @@ title: Open Mapping for the SDGs
 *** 
 
 **Version 2.0**
-Release Date: May 2019
+<br>Release Date: May 2019
 
 ### Contributors
 **Version 2.0:** 
 <br>Sara Amadi, Humanitarian OpenStreetMap Team
 <br> Jess Beutler, Humanitarian OpenStreetMap Team
 
-<br> **Version 1.0:** 
+<br> **Version 1.0:** (Release Date: September 2016)
 <br>Courtney Clark, US Peace Corps
 <br>Mikel Maron, Mapbox
 <br>Drishtie Patel, OpenStreetMap US
