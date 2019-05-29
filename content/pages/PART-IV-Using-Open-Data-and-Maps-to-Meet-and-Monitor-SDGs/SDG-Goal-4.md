@@ -3,8 +3,7 @@ title: Goal 4 - Quality Education
 weight: 4
 ---
 
-![GAL Photo](../sdg_photos/Unknown-2.jpeg)
-
+![](/images/part-iv/Unknown-2.jpg)
 
 ## Ensure inclusive and quality education for all and promote lifelong learning 
 
