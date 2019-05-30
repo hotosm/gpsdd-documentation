@@ -182,15 +182,6 @@ Collecting data on the ground is an integral part of editing OSM.</description>
     
     <item>
       <title></title>
-      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/</guid>
-      <description>5. Quality control/assurance Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -224,6 +215,15 @@ Collecting data on the ground is an integral part of editing OSM.</description>
       <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</guid>
       <description>Designing and implementing an open mapping project can be complex, especially if there are ambitious mapping goals or a large group of partners involved. Several resources exist that provide further detail on navigating the mapping process:
  Open Cities Project Guide - the World Bank Global Facility for Disaster Reduction and Recovery (GFDRR) and Humanitarian OpenStreetMap Team (HOT) published a guide that can be downloaded at http://www.opencitiesproject.org/guide/. Participatory Mapping Toolkit - Humanitarian OpenStreetMap Team (HOT) published a guide for open mapping projects in the context of refugees.</description>
+    </item>
+    
+    <item>
+      <title>5. Quality control/assurance</title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/</guid>
+      <description>Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
     </item>
     
     <item>
