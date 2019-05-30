@@ -7,6 +7,8 @@ weight: 5
 
 _“Gender equality is not only a fundamental human right, but a necessary foundation for a peaceful, prosperous and sustainable world. Providing women and girls with equal access to education, health care, decent work, and representation in political and economic decision-making processes will fuel sustainable economies and benefit societies and humanity at large.”_
 
+![](/images/part-iv/bangladesh1.JPG)
+
 Open mapping projects can support gender equality by creating data about gendered problems that affect women and girls, and working to prioritize the involvement of all members of society in decision-making processes. This means empowering female mappers, supporting projects which promote equal rights, and providing local communities with the resources and training to encourage equal participation in their initiatives. Creating spaces where women are explicitly included in each phase of the mapping process, with support from male advocates and leaders, can help achieve this goal. 
 
 ### What has been done? 
