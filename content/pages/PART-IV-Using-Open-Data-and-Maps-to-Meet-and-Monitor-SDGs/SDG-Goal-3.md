@@ -7,7 +7,7 @@ weight: 3
 
 “Significant strides have been made in increasing life expectancy and reducing some of the common killers responsible for child and maternal mortality. Major progress has also been made on increasing access to clean water and sanitation, reducing malaria, tuberculosis, polio and the spread of HIV/AIDS. However, many more efforts are needed to control a wide range of diseases and address many different persistent and emerging health issues.”
 
-![](/images/part-iv/data-zetu.jpeg)
+![](/images/part-iv/data_zetu.jpeg)
 
 Public health data collection projects provide local governments and organizations with the information to improve their response to health-related issues, such as malaria prevention, and cholera and Ebola outbreaks. Adding health facilities and their capacities to OpenStreetMap can help governments and partners understand gaps in services, help local communities locate nearest services, and assist first responders when disease outbreaks occur. Understanding household information and distribution can also assist with improving access to health care and monitoring behavior that impacts health outcomes. 
 
