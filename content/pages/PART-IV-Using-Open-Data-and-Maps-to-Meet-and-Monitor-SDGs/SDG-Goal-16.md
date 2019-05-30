@@ -9,7 +9,6 @@ _“The threats of international homicide, violence against children, human traf
 
 _To tackle these challenges and build a more peaceful, inclusive societies, there needs to be more efficient and transparent regulations put in place and comprehensive, realistic government budgets. One of the first steps towards protecting individual rights is the implementation of worldwide birth registration and the creation of more independent national human rights institutions around the world.”_
 
-![](/images/part-iv/Zwedru_blog1.jpeg)
 
 At its core, open mapping promotes participatory action that increases the representation of communities, especially marginalized and hidden communities, in decision-making. By representing community needs and values through open mapping, societies can become more just and inclusive. The need for maps which track human displacement, resettlement, and access to services has become vital to rapidly changing societies. OpenStreetMap is used by UNHCR and humanitarian agencies in decisions that improve conditions for refugees, internally displaced persons, and others, as well as helping vulnerable populations navigate new environments.
 
