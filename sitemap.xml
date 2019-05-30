@@ -98,11 +98,6 @@
   </url>
   
   <url>
-    <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/1.-setting-the-stage-for-program-sustainability/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/</loc>
     <priority>0</priority>
   </url>
@@ -125,6 +120,11 @@
   <url>
     <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/1.-setting-the-stage-for-program-sustainability/</loc>
+    <lastmod>2019-05-30T15:15:40-04:00</lastmod>
   </url>
   
   <url>
