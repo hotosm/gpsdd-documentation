@@ -130,7 +130,8 @@ In line with the New Urban Agenda and the Kuala Lumpur Declaration, open mapping
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-12/</guid>
-      <description></description>
+      <description>Sustainable consumption and production is about promoting resource and energy efficiency, sustainable infrastructure, and providing access to basic services, green and decent jobs and a better quality of life for all. Its implementation helps to achieve overall development plans, reduce future economic, environmental and social costs, strengthen economic competitiveness and reduce poverty.
+Approaching solid waste and consumption geospatially can help urban planners and governments understand distribution and patterns of waste and production issues their city faces.</description>
     </item>
     
     <item>
@@ -152,6 +153,15 @@ In line with the New Urban Agenda and the Kuala Lumpur Declaration, open mapping
     </item>
     
     <item>
+      <title>Goal 15 - Life on Land</title>
+      <link>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-15/</guid>
+      <description>Sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss “Forests cover 30 percent of the Earth’s surface and in addition to providing food security and shelter, forests are key to combating climate change, protecting biodiversity and the homes of the indigenous population. Thirteen million hectares of forests are being lost every year while the persistent degradation of drylands has led to the desertification of 3.6 billion hectares.</description>
+    </item>
+    
+    <item>
       <title>Goal 16 - Peace, Justice, and Strong Institutions</title>
       <link>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-16/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -168,25 +178,6 @@ To tackle these challenges and build a more peaceful, inclusive societies, there
       
       <guid>/images/part-i/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</guid>
-      <description>4. Data Creation &amp;amp; Collection: Quick Start Guide Creating data for OpenStreetMap typically takes two forms: remote mapping and field data collection. Remote mapping is the process of tracing infrastructure such as buildings and roads into OpenStreetMap using aerial or satellite imagery. This process allows for volunteers and team members to create basemaps anywhere in the world with only a computer and internet connection.
-Collecting data on the ground is an integral part of editing OSM.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</guid>
-      <description>6. Using Open Data &amp;amp; Maps for Analysis, Display and Decision-Making There are a handful of free tools available to extract and utilize OSM data for decision-making. By either using OSM data in conjunction with free population data sets from, for example, World Pop or other thematic datasets from the Humanitarian Data Exchange or even combining it with your own generated data, various tools can be used to clean, analyze and visualize information to inform project planning and decision-making.</description>
     </item>
     
     <item>
@@ -218,6 +209,16 @@ Collecting data on the ground is an integral part of editing OSM.</description>
     </item>
     
     <item>
+      <title>4. Data Creation &amp; Collection - Quick Start Guide</title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</guid>
+      <description>Creating data for OpenStreetMap typically takes two forms: remote mapping and field data collection. Remote mapping is the process of tracing infrastructure such as buildings and roads into OpenStreetMap using aerial or satellite imagery. This process allows for volunteers and team members to create basemaps anywhere in the world with only a computer and internet connection.
+Collecting data on the ground is an integral part of editing OSM. This data is typically richer in detail and more accurate than map data that is generated solely by remote tracing.</description>
+    </item>
+    
+    <item>
       <title>5. Quality control/assurance</title>
       <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -227,12 +228,13 @@ Collecting data on the ground is an integral part of editing OSM.</description>
     </item>
     
     <item>
-      <title>Goal 15 - Life on Land</title>
-      <link>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-15/</link>
+      <title>6. Using Open Data &amp; Maps for Analysis, Display and Decision-Making</title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-15/</guid>
-      <description>Sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss “Forests cover 30 percent of the Earth’s surface and in addition to providing food security and shelter, forests are key to combating climate change, protecting biodiversity and the homes of the indigenous population. Thirteen million hectares of forests are being lost every year while the persistent degradation of drylands has led to the desertification of 3.6 billion hectares.</description>
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</guid>
+      <description>There are a handful of free tools available to extract and utilize OSM data for decision-making. By either using OSM data in conjunction with free population data sets from, for example, World Pop or other thematic datasets from the Humanitarian Data Exchange or even combining it with your own generated data, various tools can be used to clean, analyze and visualize information to inform project planning and decision-making.
+ uMap lets you create maps with OSM layers quickly.</description>
     </item>
     
   </channel>

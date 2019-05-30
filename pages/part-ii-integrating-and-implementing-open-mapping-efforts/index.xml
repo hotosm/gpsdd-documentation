@@ -11,25 +11,6 @@
     
     
     <item>
-      <title></title>
-      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</guid>
-      <description>4. Data Creation &amp;amp; Collection: Quick Start Guide Creating data for OpenStreetMap typically takes two forms: remote mapping and field data collection. Remote mapping is the process of tracing infrastructure such as buildings and roads into OpenStreetMap using aerial or satellite imagery. This process allows for volunteers and team members to create basemaps anywhere in the world with only a computer and internet connection.
-Collecting data on the ground is an integral part of editing OSM.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</guid>
-      <description>6. Using Open Data &amp;amp; Maps for Analysis, Display and Decision-Making There are a handful of free tools available to extract and utilize OSM data for decision-making. By either using OSM data in conjunction with free population data sets from, for example, World Pop or other thematic datasets from the Humanitarian Data Exchange or even combining it with your own generated data, various tools can be used to clean, analyze and visualize information to inform project planning and decision-making.</description>
-    </item>
-    
-    <item>
       <title>1. Setting the Stage for Program Sustainability</title>
       <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/1.-setting-the-stage-for-program-sustainability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -58,12 +39,32 @@ Collecting data on the ground is an integral part of editing OSM.</description>
     </item>
     
     <item>
+      <title>4. Data Creation &amp; Collection - Quick Start Guide</title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</guid>
+      <description>Creating data for OpenStreetMap typically takes two forms: remote mapping and field data collection. Remote mapping is the process of tracing infrastructure such as buildings and roads into OpenStreetMap using aerial or satellite imagery. This process allows for volunteers and team members to create basemaps anywhere in the world with only a computer and internet connection.
+Collecting data on the ground is an integral part of editing OSM. This data is typically richer in detail and more accurate than map data that is generated solely by remote tracing.</description>
+    </item>
+    
+    <item>
       <title>5. Quality control/assurance</title>
       <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/5.-quality-control-and-assurance/</guid>
       <description>Quality Assurance and Quality Control is the process by which mappers, and OpenStreetMap contributors in general, check data to ensure that all information uploaded to OSM meets high standards for usage and to prevent vandalism. As OpenStreetMap is a free and open platform that anyone can use and edit, it is critical to the sustainability of open data and OSM that everyone participates in the quality assurance and quality control process – from field data collection to data cleaning to long-term maintenance of existing OSM data.</description>
+    </item>
+    
+    <item>
+      <title>6. Using Open Data &amp; Maps for Analysis, Display and Decision-Making</title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</guid>
+      <description>There are a handful of free tools available to extract and utilize OSM data for decision-making. By either using OSM data in conjunction with free population data sets from, for example, World Pop or other thematic datasets from the Humanitarian Data Exchange or even combining it with your own generated data, various tools can be used to clean, analyze and visualize information to inform project planning and decision-making.
+ uMap lets you create maps with OSM layers quickly.</description>
     </item>
     
   </channel>
