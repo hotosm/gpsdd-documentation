@@ -218,16 +218,6 @@ Collecting data on the ground is an integral part of editing OSM.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>/pages/example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/example/</guid>
-      <description>Example This is a documentation site example file. Write your content in markdown. You can edit directly in Github or take your content into a Markdown editor like Dillinger and you can see how your content looks while you edit.
-Happy Editing!</description>
-    </item>
-    
-    <item>
       <title>Goal 15 - Life on Land</title>
       <link>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-15/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
