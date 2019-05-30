@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/pages/part-iii-case-studies-in-integration-and-implementation/1._kihumbe/</loc>
+    <lastmod>2019-05-30T08:11:57-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/part-i-introduction/</loc>
     <lastmod>2019-05-24T12:26:13-04:00</lastmod>
   </url>
@@ -20,6 +25,11 @@
   <url>
     <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/</loc>
     <lastmod>2019-05-24T09:48:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/part-iii-case-studies-in-integration-and-implementation/2._ubos/</loc>
+    <lastmod>2019-05-30T08:12:17-04:00</lastmod>
   </url>
   
   <url>
@@ -54,7 +64,7 @@
   
   <url>
     <loc>/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-9/</loc>
-    <lastmod>2019-05-29T22:14:35-04:00</lastmod>
+    <lastmod>2019-05-30T08:10:41-04:00</lastmod>
   </url>
   
   <url>
@@ -109,16 +119,6 @@
   
   <url>
     <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/pages/part-iii-case-studies-in-integration-and-implementation/1._kihumbe/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/pages/part-iii-case-studies-in-integration-and-implementation/2._ubos/</loc>
     <priority>0</priority>
   </url>
   
