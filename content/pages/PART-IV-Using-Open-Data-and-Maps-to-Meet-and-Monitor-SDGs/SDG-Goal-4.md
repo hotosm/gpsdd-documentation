@@ -237,3 +237,24 @@ Open mapping provides a two-fold benefit towards reaching the SDG for education:
    </td>
   </tr>
 </table>
+
+|  Type | Key | Value | Description/notes |
+| --- | --- | --- | --- |
+|  Minimum educational facility tagging | amenity | school, kindergarten, college, university | *Type of school* |
+|   | name | <free text> | *Name of school* |
+|  Additional educational facility tagging | operator | <free text> | *Name of operator, often the local education authority* |
+|   | operator:type | public, private, religious, ngo | *Type of operator* |
+|   | addr:full | <free text> | *Full address<br/>and/or addr:city, addr:district, addr:street, etc.* |
+|   | capacity | yes, no, <number> | *Total number of students the school can accept (not current* |
+|   | grades | <grade number range> | *Grades serviced at school* |
+|   | fee | yes, no | *Requirement of students to pay fee to attend* |
+|   | religion | christian, muslim, buddhist, <other> | *If applicable, add denomination=** |
+|   | min_age | <number> | *Lowest age of students allowed to enroll* |
+|   | max_age | <number> | *Highest age of students allowed to enroll* |
+|   | wheelchair | yes, no | *Wheelchair accessibility* |
+|   | temporary | yes | *Denotes if school is temporary facility or structure* |
+|   | toilets | yes, no | *Denotes if school has toilets available* |
+|   | toilets:access | public, staff only | *Access to available toilets* |
+|   | staff_count:teachers | <number> | *Number of teachers* |
+|   | generator:source | oil, gas, coal, biomass, <other> | *Power supply (if any) for the school* |
+|   | water_supply | water_well, pipeline, pump, borehole, <other> | *Water supply (if any) for the school* |
