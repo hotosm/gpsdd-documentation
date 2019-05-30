@@ -2,7 +2,8 @@
 title: Open Mapping for the SDGs
 ---
 
-# Open Mapping for the SDGs:
+![](/motorbike_mapping.jpeg)
+
 ## A practical guide to launching and growing open mapping initiatives at the national and local levels
 
 Crowdsourced geospatial data, particularly in OpenStreetMap, is helping fill data gaps at the micro level as well as providing insight into SDG progress on a more real-time basis than is possible through annual/bi-annual surveys and periodic censuses. Empowering communities to geo-locate key community assets and vulnerabilities helps decision-makers gauge coverage, gaps, and risks at the ultra-local level. This guide provides a brief compendium of resources for national bureaus of statistics, national mapping agencies, line ministries, and non-government partners to foster the growth of participatory mapping in their countries and develop national roadmaps. It builds on work from Open Cities, Open Government Partnership, Citizen Science initiatives in the White House, the United States Department of State, MapGive, and Missing Maps. Part IV includes a mapping of SDGs and indicators to suggested open mapping projects.
