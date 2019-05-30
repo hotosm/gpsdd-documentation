@@ -7,6 +7,8 @@ weight: 6
 
 _“Clean, accessible water for all is an essential part of the world we want to live in and there is sufficient fresh water on the planet to achieve this. However, due to bad economics or poor infrastructure, millions of people including children die every year from diseases associated with inadequate water supply, sanitation and hygiene. Water scarcity, poor water quality and inadequate sanitation negatively impact food security, livelihood choices and educational opportunities for poor families across the world.”_
 
+![](/images/part-iv/water-point_mapping2.jpeg)
+
 Visualizing sanitation access and quality through mapping infrastructure like water points helps identify areas at risk from water-borne diseases, and improve local sanitation and waste management systems. In addition to the location of features such as latrines and bore-holes, critical attribute information can be mapped such as operational status, proneness to flooding, accessibility, and whether or not the feature is lit at night. 
 
 
