@@ -3,11 +3,11 @@ title: Goal 4 - Quality Education
 weight: 4
 ---
 
-![](/images/part-iv/Unknown-2.jpg)
-
 ## Ensure inclusive and quality education for all and promote lifelong learning 
 
 _“Basic literacy skills across the world have improved tremendously, yet bolder efforts are needed to achieve universal education goals for all. For example, the world has achieved equality in primary education between girls and boys, but few countries have achieved that target at all levels of education.”_
+
+![](/images/part-iv/Unknown-2.jpg)
 
 Open mapping provides a two-fold benefit towards reaching the SDG for education: assisting partners, governments, and local communities understand gaps in services and distribution of educational facilities, as well as providing an opportunity for individuals in these groups to gain technical and vocational skills such as GIS and surveying.  
 
