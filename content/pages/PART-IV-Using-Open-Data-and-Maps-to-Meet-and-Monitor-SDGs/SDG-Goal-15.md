@@ -1,5 +1,6 @@
 ---
 title: Goal 15 - Life on Land
+weight: 15
 ---
 
 ## Sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss
