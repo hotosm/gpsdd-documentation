@@ -12,15 +12,6 @@
     
     <item>
       <title></title>
-      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/</guid>
-      <description>2. Integrating workflow into existing projects Many organizations want to incorporate open mapping into their operations but don’t know where to start, believe that it requires rebuilding workflows from scratch, or that their operations will not be able to integrate open mapping. However, the open mapping workflow can be, and should be, integrated into existing workflows. The first step towards using open mapping is analyzing how existing projects and workflows can be altered and improved with integration.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -64,6 +55,15 @@ Collecting data on the ground is an integral part of editing OSM.</description>
       
       <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/1.-setting-the-stage-for-program-sustainability/</guid>
       <description>Maps have the power to tell stories about people and places and the ability to show patterns of ideas or issues through space and time. Citizen-generated data can leverage the local knowledge and expertise of individuals living in these communities to participate in addressing and identifying the societal issues being faced. Combining the power of maps and the value of community-led data collection enables a new way of understanding a group of people that a traditional approach to surveying, for example, may be unable to capture.</description>
+    </item>
+    
+    <item>
+      <title>2. Integrating workflow into existing projects</title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/</guid>
+      <description>Many organizations want to incorporate open mapping into their operations but don’t know where to start, believe that it requires rebuilding workflows from scratch, or that their operations will not be able to integrate open mapping. However, the open mapping workflow can be, and should be, integrated into existing workflows. The first step towards using open mapping is analyzing how existing projects and workflows can be altered and improved with integration.</description>
     </item>
     
   </channel>
