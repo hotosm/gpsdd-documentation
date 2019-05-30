@@ -11,7 +11,7 @@ Mapping basic infrastructure such as roads and buildings is often the first step
 
 ### What has been done? 
 
-**[OSM Nicaragua](https://www.hotosm.org/projects/public_transportation_map_for_managua):** Community mappers in Nicaragua have a vision to create the most detailed and complete map of their country that empowers individuals to use open data and participatory technologies to solve common challenges. OSM Nicaragua-MapaNica.net’s aim is to continue mapping the public transit routes in Managua and surrounding cities, expecting to reach at least five new cities. They believe mapping is the first step towards improving the transportation system, while engaging new individuals in mapping. By engaging local stakeholders to use OSM for urban planning, the goal is to improve mobility and transport policies in the country. 
+**[OSM Nicaragua](https://www.hotosm.org/projects/public_transportation_map_for_managua):** Before members of OSM Nicaragua stepped in, there was no map for the 42 bus lines in Metropolitan Managua, capital of Nicaragua, where 80% of the 2 million inhabitants that are dependent on buses to commute to work or school. Using open source software and OpenStreetMap, the community created the first digital and printed public transportation maps. With this collaborative effort, Managua became Central America's first capital with a complete transportation map.   
 
 ### What else can be done? 
 
