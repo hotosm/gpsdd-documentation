@@ -3,6 +3,8 @@ title: Goal 12 - Responsible Consumption and Production
 weight: 12
 ---
 
+## Ensure sustainable consumption and production patterns
+
 _Sustainable consumption and production is about promoting resource and energy efficiency, sustainable infrastructure, and providing access to basic services, green and decent jobs and a better quality of life for all. Its implementation helps to achieve overall development plans, reduce future economic, environmental and social costs, strengthen economic competitiveness and reduce poverty._
 
 Approaching solid waste and consumption geospatially can help urban planners and governments understand distribution and patterns of waste and production issues their city faces. Addressing waste issues through participatory mapping allows community members to identify trouble spots for waste that might otherwise be overlooked and allows them to identify priorities for interventions. Additionally, mapping recycling centers and other positive impacts on the consumption cycle can identify where positive impacts are developing and where opportunities still exist. 
