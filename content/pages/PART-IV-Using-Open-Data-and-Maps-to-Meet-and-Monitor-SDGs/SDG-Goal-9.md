@@ -7,6 +7,8 @@ weight: 9
 
 _"Investments in infrastructure – transport, irrigation, energy and information and communication technology – are crucial to achieving sustainable development and empowering communities in many countries. It has long been recognized that growth in productivity and incomes, and improvements in health and education outcomes require investment in infrastructure."_
 
+![](/images/part-iv/map-boy.jpg)
+
 Mapping basic infrastructure such as roads and buildings is often the first step in understanding and solving larger issues. Through the power of the HOT global community, roads and buildings can be mapped remotely while communities and teams on the ground add important information such building conditions and road surface quality. This information can be used to understand which populations have access to basic services and how to reach vulnerable people during a disaster. 
 
 ### What has been done? 
