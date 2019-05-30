@@ -98,11 +98,6 @@
   </url>
   
   <url>
-    <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</loc>
     <priority>0</priority>
   </url>
@@ -125,6 +120,11 @@
   <url>
     <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/</loc>
     <lastmod>2019-05-30T15:50:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</loc>
+    <lastmod>2019-05-30T16:17:21-04:00</lastmod>
   </url>
   
   <url>

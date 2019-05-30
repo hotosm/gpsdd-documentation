@@ -12,16 +12,6 @@
     
     <item>
       <title></title>
-      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</guid>
-      <description>3. Designing an Open Mapping Project Designing and implementing an open mapping project can be complex, especially if there are ambitious mapping goals or a large group of partners involved. Several resources exist that provide further detail on navigating the mapping process:
- Open Cities Project Guide - the World Bank Global Facility for Disaster Reduction and Recovery (GFDRR) and Humanitarian OpenStreetMap Team (HOT) published a guide that can be downloaded at http://www.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/4.-data-creation-and-collection-quick-start-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -64,6 +54,16 @@ Collecting data on the ground is an integral part of editing OSM.</description>
       
       <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/2.-integrating-workflow-into-existing-projects/</guid>
       <description>Many organizations want to incorporate open mapping into their operations but don’t know where to start, believe that it requires rebuilding workflows from scratch, or that their operations will not be able to integrate open mapping. However, the open mapping workflow can be, and should be, integrated into existing workflows. The first step towards using open mapping is analyzing how existing projects and workflows can be altered and improved with integration.</description>
+    </item>
+    
+    <item>
+      <title>3. Designing an Open Mapping Project</title>
+      <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/3.-designing-an-open-mapping-project/</guid>
+      <description>Designing and implementing an open mapping project can be complex, especially if there are ambitious mapping goals or a large group of partners involved. Several resources exist that provide further detail on navigating the mapping process:
+ Open Cities Project Guide - the World Bank Global Facility for Disaster Reduction and Recovery (GFDRR) and Humanitarian OpenStreetMap Team (HOT) published a guide that can be downloaded at http://www.opencitiesproject.org/guide/. Participatory Mapping Toolkit - Humanitarian OpenStreetMap Team (HOT) published a guide for open mapping projects in the context of refugees.</description>
     </item>
     
   </channel>
