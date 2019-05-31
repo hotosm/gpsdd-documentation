@@ -10,17 +10,20 @@ Crowdsourced geospatial data, particularly in OpenStreetMap, is helping fill dat
 
 This guide has been updated as part of the Humanitarian OpenStreetMap Project, funded by the Global Partnership for Sustainable Development Data (GPSDD), "Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa". These updates build upon previous HOT projects including the **[Refugee Mapping Toolkit](https://www.hotosm.org/updates/participatory-mapping-toolkit-a-guide-for-refugee-contexts/)**, found at: [hotosm.org/updates/participatory-mapping-toolkit-a-guide-for-refugee-contexts](https://www.hotosm.org/updates/participatory-mapping-toolkit-a-guide-for-refugee-contexts/)
 
-*** 
+## Version 2.0
+![](/logos_v2.jpeg)
 
-**Version 2.0**
 <br>Release Date: May 2019
 
-### Contributors
-**Version 2.0:** 
+**Contributors** 
 <br>Sara Amadi, Humanitarian OpenStreetMap Team
 <br> Jess Beutler, Humanitarian OpenStreetMap Team
 
-<br> **Version 1.0:** (Release Date: September 2016)
+### Version 1.0 
+
+<br> Release Date: September 2016
+
+**Contributors**
 <br>Courtney Clark, US Peace Corps
 <br>Mikel Maron, Mapbox
 <br>Drishtie Patel, OpenStreetMap US
