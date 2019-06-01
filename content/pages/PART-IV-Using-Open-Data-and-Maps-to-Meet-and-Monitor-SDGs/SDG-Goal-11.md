@@ -7,6 +7,8 @@ weight: 11
 
 _“The challenges cities face can be overcome in ways that allow them to continue to thrive and grow, while improving resource use and reducing pollution and poverty. The future we want includes cities of opportunities for all, with access to basic services, energy, housing, transportation and more.”_
 
+![](/images/part-iv/Boundaries.jpeg)
+
 In line with the New Urban Agenda and the Kuala Lumpur Declaration, open mapping can be used as a tool to improve equity, resilience, and quality of life for urban residents. Mapping work can focus on urban dwellings and infrastructure such as waste management systems, transportation links, and green spaces, to improve the social, economic and environmental quality of settlements.
 
 
