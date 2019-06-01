@@ -27,234 +27,30 @@ Open mapping provides a two-fold benefit towards reaching the SDG for education:
 
 ### OSM Data Model
 
-**Educational Facilities**
+**1. Minimum educational facility tagging** <br>
 
+|  Key | Value | Description/notes |
+| --- | --- | --- |
+|  amenity | school, kindergarten, college, university | *Type of school* |
+|  name | <free text> | *Name of school* |
+  
+**2. Additional educational facility tagging** <br>
 
-<table>
-  <tr>
-   <td>Key
-   </td>
-   <td>Value
-   </td>
-   <td>Description/notes
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>school, kindergarten, college, university
-   </td>
-   <td><em>Type of school</em>
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><free text>
-   </td>
-   <td><em>Name of school</em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><free text>
-   </td>
-   <td><em>Name of operator, often the local education authority</em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator:type
-   </td>
-   <td>public, private, religious, ngo
-   </td>
-   <td><em>Type of operator</em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><free text>
-   </td>
-   <td><em>Full address</em>
-<p>
-<em>and/or addr:city, addr:district, addr:street, etc.</em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity
-   </td>
-   <td>yes, no, <number>
-   </td>
-   <td><em>Total number of students the school can accept (not current</em>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://wiki.openstreetmap.org/wiki/Key:grades">grades</a>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>fee
-   </td>
-   <td>yes, no
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>religion
-   </td>
-   <td>christian, muslim, buddhist, <other>
-   </td>
-   <td>If applicable, add denomination=*
-   </td>
-  </tr>
-  <tr>
-   <td>min_age
-   </td>
-   <td><number>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>max_age
-   </td>
-   <td><number>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>wheelchair
-   </td>
-   <td>yes, no
-   </td>
-   <td><em>Wheelchair accessibility</em>
-   </td>
-  </tr>
-  <tr>
-   <td>temporary
-   </td>
-   <td>yes
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>toilets
-   </td>
-   <td>yes, no
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:access
-   </td>
-   <td>public, staff only
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>staff_count:teachers
-   </td>
-   <td><number>
-   </td>
-   <td><em>Number of teachers</em>
-   </td>
-  </tr>
-  <tr>
-   <td>generator:source
-   </td>
-   <td>oil, gas, coal, biomass, <other>
-   </td>
-   <td><em>Power supply (if any) for the school</em>
-   </td>
-  </tr>
-  <tr>
-   <td>water_supply
-   </td>
-   <td>water_well, pipeline, pump, borehole, <other>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
-**Related Facilities and Amenities**
-
-
-<table>
-  <tr>
-   <td>Category
-   </td>
-   <td>Key
-   </td>
-   <td>Value
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Child friendly space
-   </td>
-   <td>amenity
-   </td>
-   <td>social_facility
-   </td>
-  </tr>
-  <tr>
-   <td>social_facility
-   </td>
-   <td>outreach
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Recreation
-   </td>
-   <td>landuse
-   </td>
-   <td>recreation
-   </td>
-  </tr>
-  <tr>
-   <td>leisure
-   </td>
-   <td>pitch, playground, park
-   </td>
-  </tr>
-  <tr>
-   <td>Community centre
-   </td>
-   <td>amenity
-   </td>
-   <td>community_centre
-   </td>
-  </tr>
-</table>
-
-|  Type | Key | Value | Description/notes |
-| --- | --- | --- | --- |
-|  Minimum educational facility tagging | amenity | school, kindergarten, college, university | *Type of school* |
-|   | name | <free text> | *Name of school* |
-|  Additional educational facility tagging | operator | <free text> | *Name of operator, often the local education authority* |
-|   | operator:type | public, private, religious, ngo | *Type of operator* |
-|   | addr:full | <free text> | *Full address<br/>and/or addr:city, addr:district, addr:street, etc.* |
-|   | capacity | yes, no, <number> | *Total number of students the school can accept (not current* |
-|   | grades | <grade number range> | *Grades serviced at school* |
-|   | fee | yes, no | *Requirement of students to pay fee to attend* |
-|   | religion | christian, muslim, buddhist, <other> | *If applicable, add denomination=** |
-|   | min_age | <number> | *Lowest age of students allowed to enroll* |
-|   | max_age | <number> | *Highest age of students allowed to enroll* |
-|   | wheelchair | yes, no | *Wheelchair accessibility* |
-|   | temporary | yes | *Denotes if school is temporary facility or structure* |
-|   | toilets | yes, no | *Denotes if school has toilets available* |
-|   | toilets:access | public, staff only | *Access to available toilets* |
-|   | staff_count:teachers | <number> | *Number of teachers* |
-|   | generator:source | oil, gas, coal, biomass, <other> | *Power supply (if any) for the school* |
-|   | water_supply | water_well, pipeline, pump, borehole, <other> | *Water supply (if any) for the school* |
+|  Key | Value | Description/notes |
+| --- | --- | --- |
+|  operator | <free text> | *Name of operator, often the local education authority* |
+|  operator:type | public, private, religious, ngo | *Type of operator* |
+|  addr:full | <free text> | *Full address<br/>and/or addr:city, addr:district, addr:street, etc.* |
+|  capacity | yes, no, <number> | *Total number of students the school can accept (not current* |
+|  grades | <grade number range> | *Grades serviced at school* |
+|  fee | yes, no | *Requirement of students to pay fee to attend* |
+|  religion | christian, muslim, buddhist, <other> | *If applicable, add denomination=** |
+|  min_age | <number> | *Lowest age of students allowed to enroll* |
+|  max_age | <number> | *Highest age of students allowed to enroll* |
+|  wheelchair | yes, no | *Wheelchair accessibility* |
+|  temporary | yes | *Denotes if school is temporary facility or structure* |
+|  toilets | yes, no | *Denotes if school has toilets available* |
+|  toilets:access | public, staff only | *Access to available toilets* |
+|  staff_count:teachers | <number> | *Number of teachers* |
+|  generator:source | oil, gas, coal, biomass, <other> | *Power supply (if any) for the school* |
+|  water_supply | water_well, pipeline, pump, borehole, <other> | *Water supply (if any) for the school* |
