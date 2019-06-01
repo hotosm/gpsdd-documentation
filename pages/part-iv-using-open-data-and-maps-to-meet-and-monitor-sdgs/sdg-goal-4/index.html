@@ -303,218 +303,11 @@ https://github.com/hotosm/hugo-book
 
 <h3 id="osm-data-model">OSM Data Model</h3>
 
-<p><strong>Educational Facilities</strong></p>
-
-<table>
-  <tr>
-   <td>Key
-   </td>
-   <td>Value
-   </td>
-   <td>Description/notes
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>school, kindergarten, college, university
-   </td>
-   <td><em>Type of school</em>
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><free text>
-   </td>
-   <td><em>Name of school</em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><free text>
-   </td>
-   <td><em>Name of operator, often the local education authority</em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator:type
-   </td>
-   <td>public, private, religious, ngo
-   </td>
-   <td><em>Type of operator</em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><free text>
-   </td>
-   <td><em>Full address</em>
-<p>
-<em>and/or addr:city, addr:district, addr:street, etc.</em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity
-   </td>
-   <td>yes, no, <number>
-   </td>
-   <td><em>Total number of students the school can accept (not current</em>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://wiki.openstreetmap.org/wiki/Key:grades">grades</a>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>fee
-   </td>
-   <td>yes, no
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>religion
-   </td>
-   <td>christian, muslim, buddhist, <other>
-   </td>
-   <td>If applicable, add denomination=*
-   </td>
-  </tr>
-  <tr>
-   <td>min_age
-   </td>
-   <td><number>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>max_age
-   </td>
-   <td><number>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>wheelchair
-   </td>
-   <td>yes, no
-   </td>
-   <td><em>Wheelchair accessibility</em>
-   </td>
-  </tr>
-  <tr>
-   <td>temporary
-   </td>
-   <td>yes
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>toilets
-   </td>
-   <td>yes, no
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:access
-   </td>
-   <td>public, staff only
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>staff_count:teachers
-   </td>
-   <td><number>
-   </td>
-   <td><em>Number of teachers</em>
-   </td>
-  </tr>
-  <tr>
-   <td>generator:source
-   </td>
-   <td>oil, gas, coal, biomass, <other>
-   </td>
-   <td><em>Power supply (if any) for the school</em>
-   </td>
-  </tr>
-  <tr>
-   <td>water_supply
-   </td>
-   <td>water_well, pipeline, pump, borehole, <other>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-<p><strong>Related Facilities and Amenities</strong></p>
-
-<table>
-  <tr>
-   <td>Category
-   </td>
-   <td>Key
-   </td>
-   <td>Value
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Child friendly space
-   </td>
-   <td>amenity
-   </td>
-   <td>social_facility
-   </td>
-  </tr>
-  <tr>
-   <td>social_facility
-   </td>
-   <td>outreach
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Recreation
-   </td>
-   <td>landuse
-   </td>
-   <td>recreation
-   </td>
-  </tr>
-  <tr>
-   <td>leisure
-   </td>
-   <td>pitch, playground, park
-   </td>
-  </tr>
-  <tr>
-   <td>Community centre
-   </td>
-   <td>amenity
-   </td>
-   <td>community_centre
-   </td>
-  </tr>
-</table>
+<p><strong>1. Minimum educational facility tagging</strong> <br></p>
 
 <table>
 <thead>
 <tr>
-<th>Type</th>
 <th>Key</th>
 <th>Value</th>
 <th>Description/notes</th>
@@ -523,126 +316,122 @@ https://github.com/hotosm/hugo-book
 
 <tbody>
 <tr>
-<td>Minimum educational facility tagging</td>
 <td>amenity</td>
 <td>school, kindergarten, college, university</td>
 <td><em>Type of school</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>name</td>
 <td><free text></td>
 <td><em>Name of school</em></td>
 </tr>
+</tbody>
+</table>
 
+<p><strong>2. Additional educational facility tagging</strong> <br></p>
+
+<table>
+<thead>
 <tr>
-<td>Additional educational facility tagging</td>
+<th>Key</th>
+<th>Value</th>
+<th>Description/notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
 <td>operator</td>
 <td><free text></td>
 <td><em>Name of operator, often the local education authority</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>operator:type</td>
 <td>public, private, religious, ngo</td>
 <td><em>Type of operator</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>addr:full</td>
 <td><free text></td>
 <td><em>Full address<br/>and/or addr:city, addr:district, addr:street, etc.</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>capacity</td>
 <td>yes, no, <number></td>
 <td><em>Total number of students the school can accept (not current</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>grades</td>
 <td><grade number range></td>
 <td><em>Grades serviced at school</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>fee</td>
 <td>yes, no</td>
 <td><em>Requirement of students to pay fee to attend</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>religion</td>
 <td>christian, muslim, buddhist, <other></td>
 <td>*If applicable, add denomination=**</td>
 </tr>
 
 <tr>
-<td></td>
 <td>min_age</td>
 <td><number></td>
 <td><em>Lowest age of students allowed to enroll</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>max_age</td>
 <td><number></td>
 <td><em>Highest age of students allowed to enroll</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>wheelchair</td>
 <td>yes, no</td>
 <td><em>Wheelchair accessibility</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>temporary</td>
 <td>yes</td>
 <td><em>Denotes if school is temporary facility or structure</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>toilets</td>
 <td>yes, no</td>
 <td><em>Denotes if school has toilets available</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>toilets:access</td>
 <td>public, staff only</td>
 <td><em>Access to available toilets</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>staff_count:teachers</td>
 <td><number></td>
 <td><em>Number of teachers</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>generator:source</td>
 <td>oil, gas, coal, biomass, <other></td>
 <td><em>Power supply (if any) for the school</em></td>
 </tr>
 
 <tr>
-<td></td>
 <td>water_supply</td>
 <td>water_well, pipeline, pump, borehole, <other></td>
 <td><em>Water supply (if any) for the school</em></td>
@@ -662,8 +451,8 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/commit/6c761ec852e17cb609e1253733ce13d136160be3" title='Last modified May 30, 2019 22:08 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> May 30, 2019
+    <a href="https://github.com/hotosm/gpsdd-documentation/commit/ecf67197797926e4a11854a62e9669ec1bbbe63b" title='Last modified June 1, 2019 15:55 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jun 1, 2019
     </a>
   </div>
   
