@@ -19,8 +19,6 @@ Open mapping projects can support gender equality by creating data about gendere
 
 ### What else can be done? 
 
-
-
 *   Engage girls and women in mapping areas of their community that are unsafe or pose serious risks and empower them to advocate for change by working with community leaders, local government, police, and civil society. 
 *   Create asset maps of services and resources, such as women’s health clinics and women’s vocational training centers. 
 *   Provide opportunities to young women through hiring practices and training opportunities to enhance information and communications technology skillsets to promote the empowerment of women. 
