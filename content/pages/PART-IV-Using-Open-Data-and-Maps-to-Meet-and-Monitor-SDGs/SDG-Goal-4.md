@@ -54,3 +54,14 @@ Open mapping provides a two-fold benefit towards reaching the SDG for education:
 |  staff_count:teachers | <number> | *Number of teachers* |
 |  generator:source | oil, gas, coal, biomass, <other> | *Power supply (if any) for the school* |
 |  water_supply | water_well, pipeline, pump, borehole, <other> | *Water supply (if any) for the school* |
+
+  
+**3. Related facilities** <br>
+
+|  Category | Key | Value |
+| --- | --- | --- |
+|  Child friendly space | amenity | social_facility |
+|   | social_facility | outreach |
+|  Recreation | landuse | recreation |
+|   | leisure | pitch, playground, park |
+|  Community centre | amenity | community_centre |
