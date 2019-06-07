@@ -6,6 +6,8 @@ weight: 8
 
 _“Roughly half the world’s population still lives on the equivalent of about US$2 a day. And in too many places, having a job doesn’t guarantee the ability to escape from poverty. This slow and uneven progress requires us to rethink and retool our economic and social policies aimed at eradicating poverty.”_
 
+![](/images/part-iv/drone_set_up.jpeg)
+
 By incorporating youth and other vulnerable populations, open mapping activities can provide vocational training in the latest open source GIS tools to substantially reduce the proportion of youth not in employment, education, or training and help achieve full and productive employment and decent work for all women and men, including for young people. Additionally, mapping economic and service centers into OpenStreetMap can reveal patterns in employment gaps and opportunities. 
 
 ### What has been done? 
@@ -19,6 +21,7 @@ By incorporating youth and other vulnerable populations, open mapping activities
 ### What else can be done? 
 
 *   Engage with youth to map places they visit to understand where youth are spending their time if not in school or work, to understand where youth are out of school or work, and to understand gaps in services for youth
-*   Map employment service centers, youth centers, vocational training, and 
+*   Provide training in UAV/drone operation, GIS, field data collection, and other technical skills that can yield future employment and business development
+*   Map employment service centers, youth centers,and vocational training sites
 *   Map financial services to encourage and expand access to banking, insurance, and financial services for all.
 *   Map tourism locations and services; adding to the map locations to attract business as well as understand gaps and opportunities
