@@ -7,6 +7,8 @@ weight: 1
 
 _“Extreme poverty rates have fallen by more than half since 1990. While this is a remarkable achievement, one-in-five people in developing regions still live on less than $1.90 a day. Millions more make little more than this daily amount and are at risk of slipping back into extreme poverty.”_
 
+![](/images/part-iv/market_view.jpeg)
+
 Poverty elimination projects to map low income (often slum) areas can support humanitarian and development programming. Particularly, mapping access to financial services and monitoring areas with low employment rates is fundamental to enabling those living in poverty to become more economically stable and to improve employability and education initiatives. 
 
 Additionally, while property boundaries are not imported into OpenStreetMap directly, putting villages and household footprints on a map is often the first step in giving communities a voice in land rights. “Geospatial information is critical in helping people claim their property rights. OSM allows for a flexible database schema and detailed historical information on how and when data originated. Both of these traits are particularly helpful in property rights, which are essentially a social contract between people about their land (versus solely between a person and the land they inhabit without accounting for their neighbors, community, society, etc.).”[1] 
