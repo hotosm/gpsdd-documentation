@@ -5,7 +5,9 @@ weight: 17
 
 ## Revitalize the global partnership for sustainable development
 
-_"A successful sustainable development agenda requires partnerships between governments, the private sector and civil society. These inclusive partnerships built upon principles and values, a shared vision, and shared goals that place people and the planet at the centre, are needed at the global, regional, national and local level."
+_"A successful sustainable development agenda requires partnerships between governments, the private sector and civil society. These inclusive partnerships built upon principles and values, a shared vision, and shared goals that place people and the planet at the centre, are needed at the global, regional, national and local level."_
+
+![](/images/part-iv/collaboration.jpeg)
 
 The active participation in Communities of Practice (CoP), including particularily governments, private sector and civil society strenghens partnerships for equal development and diverse approach for creative solutions.  CoP requires three conditions, (1) a shared domain, (2) a community pursuing their interest in their domain and strategically exchange with others and (3) a practice that develops “a shared repertoire of resources: experiences, stories, tools, ways of addressing recurring problems—in short a shared practice” (Wenger-Trayner et. al. 2015). Open Data and Free and Open Source communities by default are communities of practice and support directly the approach described in SDG 17.
 
