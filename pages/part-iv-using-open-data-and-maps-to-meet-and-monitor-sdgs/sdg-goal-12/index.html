@@ -306,6 +306,124 @@ https://github.com/hotosm/hugo-book
 <li>Map restaurants, markets, cafeterias, and other food consumption areas to survey food waste</li>
 <li>Map recycling centers and businesses</li>
 </ul>
+
+<h3 id="osm-data-model">OSM Data Model</h3>
+
+<p><strong>1. Solid Waste Sites</strong> <br></p>
+
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description/notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>amenity</td>
+<td>waste_dump_site, waste_disposal, waste_basket</td>
+<td><em>Used for sites, features, and facilities were waste is unofficially or officially collected</em></td>
+</tr>
+
+<tr>
+<td>landuse</td>
+<td>landfill</td>
+<td>*Used to identify land used as a landfill. *</td>
+</tr>
+
+<tr>
+<td>dump:official</td>
+<td>yes, no</td>
+<td><em>Designates whether or not a site is officially recognized by authorities or waste collection agencies/companies</em></td>
+</tr>
+
+<tr>
+<td>waste</td>
+<td>trash, plastic, organic (food waste), other</td>
+<td><em>Designates type of waste accepted or dumped at a waste site</em></td>
+</tr>
+
+<tr>
+<td>fee</td>
+<td>yes, no</td>
+<td><em>Designates if a fee is necessary to use the waste site</em></td>
+</tr>
+
+<tr>
+<td>provider</td>
+<td><name of provider></td>
+<td><em>Name of provider, IF different from operator (organization or company responsible for providing operator with waste bins, trash cans, etc.)</em></td>
+</tr>
+
+<tr>
+<td>name</td>
+<td><name of waste facility></td>
+<td><em>If waste facility has a name</em></td>
+</tr>
+
+<tr>
+<td>operator</td>
+<td><name of operator of facility></td>
+<td><em>Name of operator (organization or company responsible for collection)</em></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>2. Recycling Sites</strong> <br></p>
+
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description/notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>amenity</td>
+<td>recycling</td>
+<td><em>Used for facilities that accept waste for recycling</em></td>
+</tr>
+
+<tr>
+<td>recycling_type</td>
+<td>container, centre</td>
+<td><em>Used to differentiate between large recycling service centers and simple recycling containers</em></td>
+</tr>
+
+<tr>
+<td>recycling:*</td>
+<td>yes,no</td>
+<td><em>Allows for specific details on what materials are accepted for recycling. See examples below.</em></td>
+</tr>
+
+<tr>
+<td>recycling:aluminum</td>
+<td>yes,no</td>
+<td><em>Example of recycling:</em> tag designating whether or not a recycling site accepts a particular material type.*</td>
+</tr>
+
+<tr>
+<td>recycling:glass</td>
+<td>yes,no</td>
+<td><em>Example of recycling:</em> tag designating whether or not a recycling site accepts a particular material type.*</td>
+</tr>
+
+<tr>
+<td>recycling:hazardous_waste</td>
+<td>yes,no</td>
+<td><em>Example of recycling:</em> tag designating whether or not a recycling site accepts a particular material type.*</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>3. Food distribution sites</strong> <br></p>
+
+<p>See <a href="https://hotosm.github.io/gpsdd-documentation/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-2/">Goal 2 - Zero Hunger</a></p>
 </article>
 
       
@@ -319,7 +437,7 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/commit/d553dc86fa37e8d9329c48cfdc8829700174c59c" title='Last modified June 7, 2019 20:32 UTC by jessbeutler' target="_blank" rel="noopener">
+    <a href="https://github.com/hotosm/gpsdd-documentation/commit/cc547a0dbd7573bdac9141d66836e7b7e3801fee" title='Last modified June 7, 2019 21:35 UTC by jessbeutler' target="_blank" rel="noopener">
       <strong>Last Modified:</strong> Jun 7, 2019
     </a>
   </div>
