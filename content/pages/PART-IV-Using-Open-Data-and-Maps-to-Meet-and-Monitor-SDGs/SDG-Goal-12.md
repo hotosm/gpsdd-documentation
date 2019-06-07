@@ -28,3 +28,34 @@ Approaching solid waste and consumption geospatially can help urban planners and
 *   Analyze proximity of waste sites to water points, waterways, schools, and other features to prioritize waste management
 *   Map restaurants, markets, cafeterias, and other food consumption areas to survey food waste
 *   Map recycling centers and businesses
+
+
+### OSM Data Model
+
+**1. Solid Waste Sites** <br>
+
+|  Key | Value | Description/notes |
+| --- | --- | --- |
+|  amenity | waste_dump_site, waste_disposal, waste_basket | *Used for sites, features, and facilities were waste is unofficially or officially collected* |
+|  landuse | landfill | *Used to identify land used as a landfill. * |
+|  dump:official | yes, no | *Designates whether or not a site is officially recognized by authorities or waste collection agencies/companies* |
+|  waste | trash, plastic, organic (food waste), other | *Designates type of waste accepted or dumped at a waste site* |
+|  fee | yes, no | *Designates if a fee is necessary to use the waste site* |
+|  provider | <name of provider> | *Name of provider, IF different from operator (organization or company responsible for providing operator with waste bins, trash cans, etc.)* |
+|  name | <name of waste facility> | *If waste facility has a name* |
+|  operator | <name of operator of facility> | *Name of operator (organization or company responsible for collection)* |
+
+**2. Recycling Sites** <br>
+
+|  Key | Value | Description/notes |
+| --- | --- | --- |
+|  amenity | recycling | *Used for facilities that accept waste for recycling* |
+|  recycling_type | container, centre | *Used to differentiate between large recycling service centers and simple recycling containers* |
+|  recycling:* | yes,no | *Allows for specific details on what materials are accepted for recycling. See examples below.* |
+|  recycling:aluminum | yes,no | *Example of recycling:* tag designating whether or not a recycling site accepts a particular material type.* |
+|  recycling:glass | yes,no | *Example of recycling:* tag designating whether or not a recycling site accepts a particular material type.* |
+|  recycling:hazardous_waste | yes,no | *Example of recycling:* tag designating whether or not a recycling site accepts a particular material type.* |
+
+**3. Food distribution sites** <br>
+
+See [Goal 2 - Zero Hunger](https://hotosm.github.io/gpsdd-documentation/pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-2/)
