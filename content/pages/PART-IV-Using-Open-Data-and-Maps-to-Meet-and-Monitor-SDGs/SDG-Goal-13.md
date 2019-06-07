@@ -7,6 +7,8 @@ weight: 13
 
 _Climate change is now affecting every country on every continent. It is disrupting national economies and affecting lives, costing people, communities and countries dearly today and even more tomorrow. Weather patterns are changing, sea levels are rising, weather events are becoming more extreme and greenhouse gas emissions are now at their highest levels in history. Without action, the world’s average surface temperature is likely to surpass 3 degrees centigrade this century. The poorest and most vulnerable people are being affected the most._
 
+![](/images/part-iv/thousand_islands.jpeg)
+
 In our changing climate, availability of baseline data - buildings, roads, lifeline infrastructure - is growing ever more important in humanitarian response. When a disaster strikes, responding organizations may scramble to find relevant and up-to-date data to guide their responses. OpenStreetMap can provide this information to disaster responders through activation of volunteer mappers as well as through preemptive mapping efforts by local communities. To reduce the exposure and vulnerability of at-risk communities, governments need to map this data to inform disaster policy and management.  
 
 
