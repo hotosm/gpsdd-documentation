@@ -26,3 +26,34 @@ Understanding where things are located through maps, allow us to where things ar
 *   Landuse and agricultural information such as crop types and seasonality
 *   Map marketplaces and their products to assist farmers with planning
 *   Map farms to guide NGOs and government agencies in reaching farmers for assistance and training opportunities 
+
+### OSM Data Model
+
+|  Category | Key | Value | Description/notes |
+| --- | --- | --- | --- |
+|  All facilities | name |  | *Name of facility* |
+|   | noname | yes | *If no name* |
+|   | opening_hours | <opening hours> | *Hours of operation* |
+|   | addr:full | <free text> | *Full address<br/>and/or addr:city, addr:district, addr:street, etc.* |
+|   | wheelchair | yes, no | *Wheelchair accessibility* |
+|   | contact | <free text> | *Contact information for food resource* |
+|  Food shops | shop | supermarket, farm | *Used as a place of business that has stocked goods for sale.* |
+|   | amenity | restaurant, cafe | *If a food amenity, used to describe the type of facility.* |
+|   | cuisine | [<free text>, see wiki for suggested values](https://wiki.openstreetmap.org/wiki/Key:cuisine "<free text>, see wiki for suggested values") | *For describing the type of food served at an eating place.* |
+|  Distribution centers, food banks, pantries | amenity | social_facility | *Used to identify an amenity used for social services.* |
+|   | social_facility | food_bank, soup_kitchen, community_centre, reception_centre, transit_centre, distribution | *For describing the type of social services provided.* |
+|   | social_facility:for | community, refugees, child | *For describing the target population used by the social facility.* |
+|   | operator | <free text> | *Name of operator* |
+|   | operator:type | public, private, religious, ngo | *Type of operator* |
+|  Markets | amenity | marketplace | *Used to identify a facility used for selling goods and services on a regular basis.* |
+|   | marketplace:type | <agricultural, clothes,mixed> | *For describing the type of goods and services offered at a marketplace.* |
+|  Community gardens | leisure | garden | *Area of land used for residential or public cultivation.* |
+|   | garden:type | community, residential, roof_garden | *For describing the type of garden.* |
+|   | access | yes, no | *For describing the public accessibility of a garden.* |
+|  Farms | landuse | farmland, orchard, plant_nursery, aquaculture, forest | Area of farmland used for tillage and pasture (animals, vegetables, flowers, fruit growing) |
+|   | crop | grass, wheat, cassava, coffee, <other> | The crop produced by cultivated land |
+|   | produce | fish, apples, live_animal | Agricultural output, alternate to crop=* |
+|   | animal | cattle, buffalo, sheep, goat, pig, horse, <other> | Used to specify features related to a type of animal |
+|  Office | office | <association,company, government, lawyer, ngo, political_party, telecommunication> | *Used to identify a place of business or service used for administrative or professional work.* |
+  <br>
+  Additional resources: https://wiki.openstreetmap.org/wiki/Food_security
