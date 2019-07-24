@@ -304,6 +304,192 @@ https://github.com/hotosm/hugo-book
 <li>Map marketplaces and their products to assist farmers with planning</li>
 <li>Map farms to guide NGOs and government agencies in reaching farmers for assistance and training opportunities</li>
 </ul>
+
+<h3 id="osm-data-model">OSM Data Model</h3>
+
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Key</th>
+<th>Value</th>
+<th>Description/notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>All facilities</td>
+<td>name</td>
+<td></td>
+<td><em>Name of facility</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>noname</td>
+<td>yes</td>
+<td><em>If no name</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>opening_hours</td>
+<td><opening hours></td>
+<td><em>Hours of operation</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>addr:full</td>
+<td><free text></td>
+<td><em>Full address<br/>and/or addr:city, addr:district, addr:street, etc.</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>wheelchair</td>
+<td>yes, no</td>
+<td><em>Wheelchair accessibility</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>contact</td>
+<td><free text></td>
+<td><em>Contact information for food resource</em></td>
+</tr>
+
+<tr>
+<td>Food shops</td>
+<td>shop</td>
+<td>supermarket, farm</td>
+<td><em>Used as a place of business that has stocked goods for sale.</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>amenity</td>
+<td>restaurant, cafe</td>
+<td><em>If a food amenity, used to describe the type of facility.</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>cuisine</td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:cuisine" title="&lt;free text&gt;, see wiki for suggested values"><free text>, see wiki for suggested values</a></td>
+<td><em>For describing the type of food served at an eating place.</em></td>
+</tr>
+
+<tr>
+<td>Distribution centers, food banks, pantries</td>
+<td>amenity</td>
+<td>social_facility</td>
+<td><em>Used to identify an amenity used for social services.</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>social_facility</td>
+<td>food_bank, soup_kitchen, community_centre, reception_centre, transit_centre, distribution</td>
+<td><em>For describing the type of social services provided.</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>social_facility:for</td>
+<td>community, refugees, child</td>
+<td><em>For describing the target population used by the social facility.</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>operator</td>
+<td><free text></td>
+<td><em>Name of operator</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>operator:type</td>
+<td>public, private, religious, ngo</td>
+<td><em>Type of operator</em></td>
+</tr>
+
+<tr>
+<td>Markets</td>
+<td>amenity</td>
+<td>marketplace</td>
+<td><em>Used to identify a facility used for selling goods and services on a regular basis.</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>marketplace:type</td>
+<td><agricultural, clothes,mixed></td>
+<td><em>For describing the type of goods and services offered at a marketplace.</em></td>
+</tr>
+
+<tr>
+<td>Community gardens</td>
+<td>leisure</td>
+<td>garden</td>
+<td><em>Area of land used for residential or public cultivation.</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>garden:type</td>
+<td>community, residential, roof_garden</td>
+<td><em>For describing the type of garden.</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>access</td>
+<td>yes, no</td>
+<td><em>For describing the public accessibility of a garden.</em></td>
+</tr>
+
+<tr>
+<td>Farms</td>
+<td>landuse</td>
+<td>farmland, orchard, plant_nursery, aquaculture, forest</td>
+<td>Area of farmland used for tillage and pasture (animals, vegetables, flowers, fruit growing)</td>
+</tr>
+
+<tr>
+<td></td>
+<td>crop</td>
+<td>grass, wheat, cassava, coffee, <other></td>
+<td>The crop produced by cultivated land</td>
+</tr>
+
+<tr>
+<td></td>
+<td>produce</td>
+<td>fish, apples, live_animal</td>
+<td>Agricultural output, alternate to crop=*</td>
+</tr>
+
+<tr>
+<td></td>
+<td>animal</td>
+<td>cattle, buffalo, sheep, goat, pig, horse, <other></td>
+<td>Used to specify features related to a type of animal</td>
+</tr>
+
+<tr>
+<td>Office</td>
+<td>office</td>
+<td><association,company, government, lawyer, ngo, political_party, telecommunication></td>
+<td><em>Used to identify a place of business or service used for administrative or professional work.</em></td>
+</tr>
+</tbody>
+</table>
+
+<p><br>
+  Additional resources: <a href="https://wiki.openstreetmap.org/wiki/Food_security">https://wiki.openstreetmap.org/wiki/Food_security</a></p>
 </article>
 
       
@@ -317,8 +503,8 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/commit/91b47a6708301a530f3b2e22ae5edd893797e43f" title='Last modified May 30, 2019 21:58 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> May 30, 2019
+    <a href="https://github.com/hotosm/gpsdd-documentation/commit/cfd241318082fd57092dd98288311082b3a73d19" title='Last modified July 24, 2019 18:37 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 24, 2019
     </a>
   </div>
   
