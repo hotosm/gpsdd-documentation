@@ -311,171 +311,160 @@ https://github.com/hotosm/hugo-book
 
 <h4 id="osm-data-model">OSM Data Model</h4>
 
+<p><strong>1. Commercial activity</strong> <br></p>
+
 <table>
-  <tr>
-   <td>Type
-   </td>
-   <td>Category
-   </td>
-   <td>Key
-   </td>
-   <td>Value
-   </td>
-   <td>Description/notes
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="9" >Commercial activity
-   </td>
-   <td rowspan="3" >All commercial points of interest
-   </td>
-   <td>name
-   </td>
-   <td><Business name; name of the agent location (one can own multiple)>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>noname
-   </td>
-   <td><em>if no name <yes></em>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>opening_hours
-   </td>
-   <td>Example: “Mo-Su 08:00-22:00”, “24/7”, “Mo-Fr 08:30-20:00; Sa,Su 08:00-15:00”
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Financial Services / Mobile Money
-   </td>
-   <td>amenity
-   </td>
-   <td>mobile_money_agent, bank, banking_agent, atm, credit_institution, microfinance_bank, microfinance, sacco, bureau_de_change, money_transfer
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>network
-   </td>
-   <td>Airtel Money, Africell Money, MTN Mobile Money, UTL M-Sente, SMART Mobile Money, Vodacom M-Pesa, Safaricom M-Pesa
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Businesses
-   </td>
-   <td>amenity
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>shop
-   </td>
-   <td>alcohol, art, bakery, beauty, beverages, bicycle, books, butcher, car, car_parts, car_repair,charcoal, chemist, clothes, convenience, copyshop, cosmetics, electronics, food, furniture, greengrocer, hairdresser, houseware, jewelry, kiosk, mobile_phone, pastry, shoes, stationary, supermarket, tailor, yes
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Markets
-   </td>
-   <td>amenity
-   </td>
-   <td>marketplace
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>marketplace:type
-   </td>
-   <td><agricultural, clothes,mixed>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="8" >Boundaries and places
-   </td>
-   <td rowspan="4" >Administrative boundaries
-   </td>
-   <td>boundary
-   </td>
-   <td>administrative
-   </td>
-   <td>Designates an area as an administrative area
-   </td>
-  </tr>
-  <tr>
-   <td>admin_level
-   </td>
-   <td><1 to 10>
-   </td>
-   <td><a href="https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries">Indicates the level of an administrative boundary according to country specific guides</a>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:*
-   </td>
-   <td><name of administrative area>
-   </td>
-   <td>addr: to be followed by the administrative designation (i.e. addr:district, addr:village)
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><name of administrative area>
-   </td>
-   <td><em>Official or most commonly used name of administrative area</em>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="4" >Places (Villages, towns, cities)
-   </td>
-   <td>place
-   </td>
-   <td>city, suburb, town, village, hamlet, <other>
-   </td>
-   <td><em>Place type, generally based on population size</em>
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><name of the place>
-   </td>
-   <td><em>Official or most commonly used name of the place</em>
-   </td>
-  </tr>
-  <tr>
-   <td>alt_name
-   </td>
-   <td><if alternative place name>
-   </td>
-   <td><em>Unofficial or secondary name of the place</em>
-   </td>
-  </tr>
-  <tr>
-   <td>population
-   </td>
-   <td><number>
-   </td>
-   <td>Official or estimated population size
-   </td>
-  </tr>
+<thead>
+<tr>
+<th>Category</th>
+<th>Key</th>
+<th>Value</th>
+<th>Description/notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>All commercial points of interest</td>
+<td>name</td>
+<td><Business name; name of the agent location (one can own multiple)></td>
+<td><em>Business name</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>noname</td>
+<td>yes</td>
+<td><em>Use if business has no name</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>opening_hours</td>
+<td>Example: “Mo-Su 08:00-22:00”, “24/7”, “Mo-Fr 08:30-20:00; Sa,Su 08:00-15:00”</td>
+<td><em>Hours of operation</em></td>
+</tr>
+
+<tr>
+<td>Financial Services / Mobile Money</td>
+<td>amenity</td>
+<td>mobile_money_agent, bank, banking_agent, atm, credit_institution, microfinance_bank, microfinance, sacco, bureau_de_change, money_transfer</td>
+<td><em>Type of financial service, required</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>network</td>
+<td>Airtel Money, Africell Money, MTN Mobile Money, UTL M-Sente, SMART Mobile Money, Vodacom M-Pesa, Safaricom M-Pesa</td>
+<td><em>For mobile money agents, network(s) serviced</em></td>
+</tr>
+
+<tr>
+<td>Businesses</td>
+<td>amenity</td>
+<td>bar, cafe, car_wash, cinema, community_centre, fast_food, fuel, gym, pub, restaurant</td>
+<td><em>For amenity &amp; service oriented businesses</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>shop</td>
+<td>alcohol, art, bakery, beauty, beverages, bicycle, books, butcher, car, car_parts, car_repair,charcoal, chemist, clothes, convenience, copyshop, cosmetics, electronics, food, furniture, greengrocer, hairdresser, houseware, jewelry, kiosk, mobile_phone, pastry, shoes, stationary, supermarket, tailor, yes</td>
+<td><em>For retail oriented businesses</em></td>
+</tr>
+
+<tr>
+<td>Markets</td>
+<td>amenity</td>
+<td>marketplace</td>
+<td><em>Required for all marketplaces</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>marketplace:type</td>
+<td>agricultural, clothes, mixed</td>
+<td><em>Types of products sold at marketplace</em></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>2. Boundaries and places</strong> <br></p>
+
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Key</th>
+<th>Value</th>
+<th>Description/notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Administrative boundaries</td>
+<td>boundary</td>
+<td>administrative</td>
+<td>Designates an area as an administrative area</td>
+</tr>
+
+<tr>
+<td></td>
+<td>admin_level</td>
+<td><1 to 10></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries" title="Indicates the level of an administrative boundary according to country specific guides">Indicates the level of an administrative boundary according to country specific guides</a></td>
+</tr>
+
+<tr>
+<td></td>
+<td>addr:*</td>
+<td><name of administrative area></td>
+<td>addr: to be followed by the administrative designation (i.e. addr:district, addr:village)</td>
+</tr>
+
+<tr>
+<td></td>
+<td>name</td>
+<td><name of administrative area></td>
+<td><em>Official or most commonly used name of administrative area</em></td>
+</tr>
+
+<tr>
+<td>Places (Villages, towns, cities)</td>
+<td>place</td>
+<td>city, suburb, town, village, hamlet, <other></td>
+<td><em>Place type, generally based on population size</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>name</td>
+<td><name of the place></td>
+<td><em>Official or most commonly used name of the place</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>alt_name</td>
+<td><if alternative place name></td>
+<td><em>Unofficial or secondary name of the place</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>population</td>
+<td><number></td>
+<td><em>Official or estimated population size</em></td>
+</tr>
+
+<tr>
+<td></td>
+<td>source</td>
+<td><free text></td>
+<td><em>Source of location and population information such as survey or official documentation</em></td>
+</tr>
+</tbody>
 </table>
 
 <hr />
@@ -494,8 +483,8 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/gpsdd-documentation/commit/b850dbea88c732f10f581794c3f96d839b2ee198" title='Last modified June 7, 2019 20:51 UTC by jessbeutler' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 7, 2019
+    <a href="https://github.com/hotosm/gpsdd-documentation/commit/81444695e374bec4cbe89cc3dbec420d177d4db7" title='Last modified July 24, 2019 17:34 UTC by jessbeutler' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 24, 2019
     </a>
   </div>
   
