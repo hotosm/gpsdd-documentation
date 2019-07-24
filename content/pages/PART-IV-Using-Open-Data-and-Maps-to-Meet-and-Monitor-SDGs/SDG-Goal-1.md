@@ -34,173 +34,33 @@ Additionally, while property boundaries are not imported into OpenStreetMap dire
 
 #### OSM Data Model
 
+**1. Commercial activity** <br>
 
-<table>
-  <tr>
-   <td>Type
-   </td>
-   <td>Category
-   </td>
-   <td>Key
-   </td>
-   <td>Value
-   </td>
-   <td>Description/notes
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="9" >Commercial activity
-   </td>
-   <td rowspan="3" >All commercial points of interest
-   </td>
-   <td>name
-   </td>
-   <td><Business name; name of the agent location (one can own multiple)>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>noname
-   </td>
-   <td><em>if no name <yes></em>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>opening_hours
-   </td>
-   <td>Example: “Mo-Su 08:00-22:00”, “24/7”, “Mo-Fr 08:30-20:00; Sa,Su 08:00-15:00”
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Financial Services / Mobile Money
-   </td>
-   <td>amenity
-   </td>
-   <td>mobile_money_agent, bank, banking_agent, atm, credit_institution, microfinance_bank, microfinance, sacco, bureau_de_change, money_transfer
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>network
-   </td>
-   <td>Airtel Money, Africell Money, MTN Mobile Money, UTL M-Sente, SMART Mobile Money, Vodacom M-Pesa, Safaricom M-Pesa
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Businesses
-   </td>
-   <td>amenity
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>shop
-   </td>
-   <td>alcohol, art, bakery, beauty, beverages, bicycle, books, butcher, car, car_parts, car_repair,charcoal, chemist, clothes, convenience, copyshop, cosmetics, electronics, food, furniture, greengrocer, hairdresser, houseware, jewelry, kiosk, mobile_phone, pastry, shoes, stationary, supermarket, tailor, yes
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Markets
-   </td>
-   <td>amenity
-   </td>
-   <td>marketplace
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>marketplace:type
-   </td>
-   <td><agricultural, clothes,mixed>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="8" >Boundaries and places
-   </td>
-   <td rowspan="4" >Administrative boundaries
-   </td>
-   <td>boundary
-   </td>
-   <td>administrative
-   </td>
-   <td>Designates an area as an administrative area
-   </td>
-  </tr>
-  <tr>
-   <td>admin_level
-   </td>
-   <td><1 to 10>
-   </td>
-   <td><a href="https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries">Indicates the level of an administrative boundary according to country specific guides</a>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:*
-   </td>
-   <td><name of administrative area>
-   </td>
-   <td>addr: to be followed by the administrative designation (i.e. addr:district, addr:village)
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><name of administrative area>
-   </td>
-   <td><em>Official or most commonly used name of administrative area</em>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="4" >Places (Villages, towns, cities)
-   </td>
-   <td>place
-   </td>
-   <td>city, suburb, town, village, hamlet, <other>
-   </td>
-   <td><em>Place type, generally based on population size</em>
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><name of the place>
-   </td>
-   <td><em>Official or most commonly used name of the place</em>
-   </td>
-  </tr>
-  <tr>
-   <td>alt_name
-   </td>
-   <td><if alternative place name>
-   </td>
-   <td><em>Unofficial or secondary name of the place</em>
-   </td>
-  </tr>
-  <tr>
-   <td>population
-   </td>
-   <td><number>
-   </td>
-   <td>Official or estimated population size
-   </td>
-  </tr>
-</table>
+|  Category | Key | Value | Description/notes |
+| --- | --- | --- | --- |
+|  All commercial points of interest | name | <Business name; name of the agent location (one can own multiple)> | *Business name* |
+|   | noname | yes | *Use if business has no name* |
+|   | opening_hours | Example: “Mo-Su 08:00-22:00”, “24/7”, “Mo-Fr 08:30-20:00; Sa,Su 08:00-15:00” | *Hours of operation* |
+|  Financial Services / Mobile Money | amenity | mobile_money_agent, bank, banking_agent, atm, credit_institution, microfinance_bank, microfinance, sacco, bureau_de_change, money_transfer | *Type of financial service, required* |
+|   | network | Airtel Money, Africell Money, MTN Mobile Money, UTL M-Sente, SMART Mobile Money, Vodacom M-Pesa, Safaricom M-Pesa | *For mobile money agents, network(s) serviced* |
+|  Businesses | amenity | bar, cafe, car_wash, cinema, community_centre, fast_food, fuel, gym, pub, restaurant | *For amenity & service oriented businesses* |
+|   | shop | alcohol, art, bakery, beauty, beverages, bicycle, books, butcher, car, car_parts, car_repair,charcoal, chemist, clothes, convenience, copyshop, cosmetics, electronics, food, furniture, greengrocer, hairdresser, houseware, jewelry, kiosk, mobile_phone, pastry, shoes, stationary, supermarket, tailor, yes | *For retail oriented businesses* |
+|  Markets | amenity | marketplace | *Required for all marketplaces* |
+|   | marketplace:type | agricultural, clothes, mixed | *Types of products sold at marketplace* |
+
+**2. Boundaries and places** <br>
+
+|  Category | Key | Value | Description/notes |
+| --- | --- | --- | --- |
+|  Administrative boundaries | boundary | administrative | Designates an area as an administrative area |
+|   | admin_level | <1 to 10> | [Indicates the level of an administrative boundary according to country specific guides](https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries "Indicates the level of an administrative boundary according to country specific guides") |
+|   | addr:* | <name of administrative area> | addr: to be followed by the administrative designation (i.e. addr:district, addr:village) |
+|   | name | <name of administrative area> | *Official or most commonly used name of administrative area* |
+|  Places (Villages, towns, cities) | place | city, suburb, town, village, hamlet, <other> | *Place type, generally based on population size* |
+|   | name | <name of the place> | *Official or most commonly used name of the place* |
+|   | alt_name | <if alternative place name> | *Unofficial or secondary name of the place* |
+|   | population | <number> | *Official or estimated population size* |
+|   | source | <free text> | *Source of location and population information such as survey or official documentation* |
 
 ****
 [1] Omidyar Network: https://www.omidyar.com/blog/how-map-can-change-world-state-map-us-2015-conference-emphasizes-role-geospatial-data-property
