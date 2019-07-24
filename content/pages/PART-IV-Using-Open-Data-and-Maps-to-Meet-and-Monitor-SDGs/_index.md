@@ -2,7 +2,7 @@
 title: Part IV - Using Open Data and Maps to Meet and Monitor SDGs
 ---
 
-![](/images/part-iv/E_SDG_logo_No_UN_Emblem_horizontal_cmyk.jpeg)
+![](/images/part-iv/sdgs_poster.jpeg)
 
 For each of the SDGs, the following sections provide guidance on how OSM and open mapping can be used to meet and monitor the goal, suggestions of projects that could be conducted, and showcases of projects that have been completed benefiting the goal. Additionally, OpenStreetMap data models have been provided where applicable as examples of data that can be collected and uploaded as open data in support of meeting and monitoring the SDGs. These data models should be treated as starting points for developing project-specific data models and exploring the OpenStreetMap data schema. These data models are not comprehensive nor officially recognized. All SDG data models developed by Humanitarian OpenStreetMap Team can be found [here](https://docs.google.com/spreadsheets/d/1mPYzLcPuqzo_UJQXN074uuK7A_xfKkGh3DuIMFhgI78/edit#gid=0).
  
