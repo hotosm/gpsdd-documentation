@@ -41,11 +41,19 @@ The Global Facility for Disaster Risk and Recovery (GFDRR)’s [Open Cities Afri
 Similarly, the Humanitarian OpenStreetMap Team (HOT) in collaboration with Botswana’s Ministry of Health and Wellness and the Clinton Health Access Initiative (CHAI) worked to enhance and expand the available data in the country to support more effective malaria eradication interventions. Prior to launching this initiative, interventions such as Indoor Residual Spraying (IRS) and bednet distribution were sporadic as accurate data for where people live and sleep was not available. Because spraying teams did not have a full overview of the buildings needed to be covered, these interventions were not guided or systematic in reaching places that had high concentrations of malaria infections. [HOT’s intervention](https://www.hotosm.org/projects/botswana_field_data_collection_to_support_the_national_malaria_programme) focused on expanding available data in six malaria endemic areas in Botswana on the type/use of buildings as well as building and roofing materials. Surveyors from local communities were recruited to implement data collection processes across these districts. Ultimately, working directly with the Ministry of Health and Wellness staff, including National Malaria Programme and District Health Management Team staff, enabled this data to be used directly to inform a more effective response and interventions. 
 
 ****
-OpenStreetMap: [openstreetmap.org](openstreetmap.org) <br>
+
+OpenStreetMap: [openstreetmap.org](openstreetmap.org)
+
 Nepal Earthquake Response: [hotosm.org/projects/nepal_2015_earthquake_response](https://www.hotosm.org/projects/nepal_2015_earthquake_response)
-<br> Bangladesh & South Asia Floods: [hotosm.org/projects/disaster-response-south-asian-floods-2017](https://www.hotosm.org/projects/disaster-response-south-asian-floods-2017)
-<br> Map Kibera: [hotosm.org/projects/map-kibera-slum-mapping](https://www.hotosm.org/projects/map-kibera-slum-mapping)
-<br> DATA Uruguay: [datauy.org](https://www.datauy.org/)
-<br> OSM Indonesia: [openstreetmap.id](http://openstreetmap.id/)
-<br> Open Cities Africa: [opencitiesproject.org](https://opencitiesproject.org/)
-<br> HOT Malaria Elimination in Botswana: [hotosm.org/projects/botswana_field_data_collection_to_support_the_national_malaria_programme](https://www.hotosm.org/projects/botswana_field_data_collection_to_support_the_national_malaria_programme)
+
+Bangladesh & South Asia Floods: [hotosm.org/projects/disaster-response-south-asian-floods-2017](https://www.hotosm.org/projects/disaster-response-south-asian-floods-2017)
+
+Map Kibera: [hotosm.org/projects/map-kibera-slum-mapping](https://www.hotosm.org/projects/map-kibera-slum-mapping)
+
+DATA Uruguay: [datauy.org](https://www.datauy.org/)
+
+OSM Indonesia: [openstreetmap.id](http://openstreetmap.id/)
+
+Open Cities Africa: [opencitiesproject.org](https://opencitiesproject.org/)
+
+HOT Malaria Elimination in Botswana: [hotosm.org/projects/botswana_field_data_collection_to_support_the_national_malaria_programme](https://www.hotosm.org/projects/botswana_field_data_collection_to_support_the_national_malaria_programme)

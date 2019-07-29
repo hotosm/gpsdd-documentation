@@ -2,7 +2,7 @@
 title: Open Mapping for the SDGs
 ---
 
-![](/motorbike_mapping.jpeg)
+![](/images/motorbike_mapping.jpeg)
 
 ## A practical guide to launching and growing open mapping initiatives at the national and local levels
 
@@ -11,26 +11,37 @@ Crowdsourced geospatial data, particularly in OpenStreetMap, is helping fill dat
 This guide has been updated as part of the Humanitarian OpenStreetMap Project, funded by the Global Partnership for Sustainable Development Data (GPSDD), "Bridging Gaps in Development and Emergency for the Refugee Crisis in East Africa". These updates build upon previous HOT projects including the **[Refugee Mapping Toolkit](https://www.hotosm.org/updates/participatory-mapping-toolkit-a-guide-for-refugee-contexts/)**, found at: [hotosm.org/updates/participatory-mapping-toolkit-a-guide-for-refugee-contexts](https://www.hotosm.org/updates/participatory-mapping-toolkit-a-guide-for-refugee-contexts/)
 
 ### Version 2.0
-![](/logos_v2.jpeg)
-<br>Release Date: May 2019
+![](images/logos_v2.jpeg)
+
+Release Date: May 2019
 
 **Contributors** 
-<br>Sara Amadi, Humanitarian OpenStreetMap Team; 
-<br> Jess Beutler, Humanitarian OpenStreetMap Team
+
+Sara Amadi, Humanitarian OpenStreetMap Team; 
+
+Jess Beutler, Humanitarian OpenStreetMap Team
 
 ****
 
 ### Version 1.0 
-![](/logos_v1.jpeg)
-<br> Release Date: September 2016
+
+![](images/logos_v1.jpeg)
+
+Release Date: September 2016
 
 **Contributors**
-<br>Courtney Clark, US Peace Corps;
-<br>Mikel Maron, Mapbox; 
-<br>Drishtie Patel, OpenStreetMap US; 
-<br>Tyler Radford, Humanitarian OpenStreetMap Team; 
-<br>Robert Soden, GFDRR; 
-<br>Paul Uithol, Humanitarian OpenStreetMap Team
+
+Courtney Clark, US Peace Corps;
+
+Mikel Maron, Mapbox; 
+
+Drishtie Patel, OpenStreetMap US; 
+
+Tyler Radford, Humanitarian OpenStreetMap Team; 
+
+Robert Soden, GFDRR; 
+
+Paul Uithol, Humanitarian OpenStreetMap Team
 
 ****
 
