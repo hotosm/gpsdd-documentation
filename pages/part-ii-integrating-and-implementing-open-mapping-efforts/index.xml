@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Part II - Integrating and Implementing Open Mapping Efforts on GPSDD Documentation</title>
+    <title>Part II - Integrating and Implementing Open Mapping Efforts on Open Mapping for SDGs</title>
     <link>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/</link>
-    <description>Recent content in Part II - Integrating and Implementing Open Mapping Efforts on GPSDD Documentation</description>
+    <description>Recent content in Part II - Integrating and Implementing Open Mapping Efforts on Open Mapping for SDGs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -64,7 +64,7 @@ Collecting data on the ground is an integral part of editing OSM. This data is t
       
       <guid>/pages/part-ii-integrating-and-implementing-open-mapping-efforts/6.-using-open-data-and-maps-for-analysis-display-and-decision-making/</guid>
       <description>There are a handful of free tools available to extract and utilize OSM data for decision-making. By either using OSM data in conjunction with free population data sets from, for example, World Pop or other thematic datasets from the Humanitarian Data Exchange or even combining it with your own generated data, various tools can be used to clean, analyze and visualize information to inform project planning and decision-making.
- uMap lets you create maps with OSM layers quickly.</description>
+  uMap lets you create maps with OSM layers quickly.</description>
     </item>
     
   </channel>

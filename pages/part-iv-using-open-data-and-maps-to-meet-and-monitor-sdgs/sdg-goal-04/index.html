@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GPSDD Documentation</title>
+<title>Open Mapping for SDGs</title>
 <link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
 <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
@@ -28,11 +28,11 @@ https://github.com/hotosm/hugo-book
     <div class="nav-container">
       <a class="nav-title with-logo" href="../../../">
         <img class="logo" src="../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
-        <span>GPSDD Documentation</span>
+        <span>Open Mapping for SDGs</span>
       </a>
       <a class="nav-guide-link guide-active" href="../../../pages/part-iv-using-open-data-and-maps-to-meet-and-monitor-sdgs/sdg-goal-01/" >Guide</a>
       <div class="hr-v"></div>
-      <a class="nav-pdf-download" href="../../../pdfs/GPSDD_Documentation.pdf">Download PDF &nbsp;
+      <a class="nav-pdf-download" href="../../../pdfs/Open_Mapping_for_SDGs.pdf">Download PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -305,35 +305,22 @@ https://github.com/hotosm/hugo-book
         </g>
       </svg>
     </a>
-  </div>
-
-<h2 id="ensure-inclusive-and-quality-education-for-all-and-promote-lifelong-learning">Ensure inclusive and quality education for all and promote lifelong learning</h2>
-
+  </div><h2 id="ensure-inclusive-and-quality-education-for-all-and-promote-lifelong-learning">Ensure inclusive and quality education for all and promote lifelong learning</h2>
 <p><em>“Basic literacy skills across the world have improved tremendously, yet bolder efforts are needed to achieve universal education goals for all. For example, the world has achieved equality in primary education between girls and boys, but few countries have achieved that target at all levels of education.”</em></p>
-
-<p><img src="../../../images/part-iv/Unknown-2.jpg" alt="" /></p>
-
+<p><img src="../../../images/part-iv/Unknown-2.jpg" alt=""></p>
 <p>Open mapping provides a two-fold benefit towards reaching the SDG for education: assisting partners, governments, and local communities understand gaps in services and distribution of educational facilities, as well as providing an opportunity for individuals in these groups to gain technical and vocational skills such as GIS and surveying.</p>
-
 <h3 id="what-has-been-done">What has been done?</h3>
-
 <p><strong><a href="https://www.hotosm.org/updates/mapping-sexist-publicity/">GAL (Peru):</a></strong> HOT local partner GAL School Peru is training local high school students in Cusco to identify under-represented social issues, and then investigate, map and share them. To date, groups of school girls in Cusco have created campaigns that use maps of sexist publicity and behaviour, presenting them as part of an international festival and to local government representatives, as well as peers and the broader school community.</p>
-
 <p><strong><a href="https://www.hotosm.org/projects/urban_innovations_crowdsourcing_non-camp_refugee_data">Crowdsourcing Non-Camp Refugee Data Through OpenStreetMap:</a></strong> In northern Uganda, refugees and host community members were trained and provided with the tools to map vulnerabilities and assets in their communities, including educational facilities. This educational data, combined with other features mapped, allowed for analysis and map creation showing patterns such as distance refugees and host community members need to walk to school and the distance between educational facilities and the closest safe drinking water points. Through this project, HOT also provided training to secondary school students and teachers in the refugee-hosting district of Arua covering subjects such as how to use OpenStreetMap to navigate, how to read a map, and how teachers can use OSM during geography lessons.</p>
-
 <h3 id="what-else-can-be-done">What else can be done?</h3>
-
 <ul>
 <li>Provide vocational training in the latest open source GIS tools to substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs, and entrepreneurship.</li>
 <li>Map barriers to education, such as the distance students must travel to school and unsafe or vulnerable areas en route to or near schools.</li>
 <li>Create detailed maps of schools in a given community, along with information about school size, number of teachers, number of bathrooms available, etc., to empower parents when they choose a school for their children.</li>
 <li>Engage students in on-the-ground geographic data collection to improve map literacy and spatial awareness, as well as empower students to have a say in how their community is represented on the world map.</li>
 </ul>
-
 <h3 id="osm-data-model">OSM Data Model</h3>
-
-<p><strong>1. Minimum educational facility tagging</strong> <br></p>
-
+<p><strong>1. Minimum educational facility tagging</strong> <!-- raw HTML omitted --></p>
 <table>
 <thead>
 <tr>
@@ -342,14 +329,12 @@ https://github.com/hotosm/hugo-book
 <th>Description/notes</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>amenity</td>
 <td>school, kindergarten, college, university</td>
 <td><em>Type of school</em></td>
 </tr>
-
 <tr>
 <td>name</td>
 <td>[free text]</td>
@@ -357,9 +342,7 @@ https://github.com/hotosm/hugo-book
 </tr>
 </tbody>
 </table>
-
-<p><strong>2. Additional educational facility tagging</strong> <br></p>
-
+<p><strong>2. Additional educational facility tagging</strong> <!-- raw HTML omitted --></p>
 <table>
 <thead>
 <tr>
@@ -368,98 +351,82 @@ https://github.com/hotosm/hugo-book
 <th>Description/notes</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>operator</td>
 <td>[free text]</td>
 <td><em>Name of operator, often the local education authority</em></td>
 </tr>
-
 <tr>
 <td>operator:type</td>
 <td>public, private, religious, ngo</td>
 <td><em>Type of operator</em></td>
 </tr>
-
 <tr>
 <td>addr:full</td>
 <td>[free text]</td>
-<td><em>Full address<br/>and/or addr:city, addr:district, addr:street, etc.</em></td>
+<td><em>Full address<!-- raw HTML omitted -->and/or addr:city, addr:district, addr:street, etc.</em></td>
 </tr>
-
 <tr>
 <td>capacity</td>
 <td>yes, no, [number]</td>
 <td><em>Total number of students the school can accept (not current</em></td>
 </tr>
-
 <tr>
 <td>grades</td>
 <td>[grade number range]</td>
 <td><em>Grades serviced at school</em></td>
 </tr>
-
 <tr>
 <td>fee</td>
 <td>yes, no</td>
 <td><em>Requirement of students to pay fee to attend</em></td>
 </tr>
-
 <tr>
 <td>religion</td>
-<td>christian, muslim, buddhist, <other></td>
+<td>christian, muslim, buddhist, <!-- raw HTML omitted --></td>
 <td><em>If applicable, add denomination=</em> *</td>
 </tr>
-
 <tr>
 <td>min_age</td>
 <td>[number]</td>
 <td><em>Lowest age of students allowed to enroll</em></td>
 </tr>
-
 <tr>
 <td>max_age</td>
 <td>[number]</td>
 <td><em>Highest age of students allowed to enroll</em></td>
 </tr>
-
 <tr>
 <td>wheelchair</td>
 <td>yes, no</td>
 <td><em>Wheelchair accessibility</em></td>
 </tr>
-
 <tr>
 <td>temporary</td>
 <td>yes</td>
 <td><em>Denotes if school is temporary facility or structure</em></td>
 </tr>
-
 <tr>
 <td>toilets</td>
 <td>yes, no</td>
 <td><em>Denotes if school has toilets available</em></td>
 </tr>
-
 <tr>
 <td>toilets:access</td>
 <td>public, staff only</td>
 <td><em>Access to available toilets</em></td>
 </tr>
-
 <tr>
 <td>staff_count:teachers</td>
 <td>[number]</td>
 <td><em>Number of teachers</em></td>
 </tr>
-
 <tr>
 <td>generator:source</td>
 <td>oil, gas, coal, biomass, [other]</td>
 <td><em>Power supply (if any) for the school</em></td>
 </tr>
-
 <tr>
 <td>water_supply</td>
 <td>water_well, pipeline, pump, borehole, [other]</td>
@@ -467,9 +434,7 @@ https://github.com/hotosm/hugo-book
 </tr>
 </tbody>
 </table>
-
-<p><strong>3. Related facilities</strong> <br></p>
-
+<p><strong>3. Related facilities</strong> <!-- raw HTML omitted --></p>
 <table>
 <thead>
 <tr>
@@ -478,32 +443,27 @@ https://github.com/hotosm/hugo-book
 <th>Value</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Child friendly space</td>
 <td>amenity</td>
 <td>social_facility</td>
 </tr>
-
 <tr>
 <td></td>
 <td>social_facility</td>
 <td>outreach</td>
 </tr>
-
 <tr>
 <td>Recreation</td>
 <td>landuse</td>
 <td>recreation</td>
 </tr>
-
 <tr>
 <td></td>
 <td>leisure</td>
 <td>pitch, playground, park</td>
 </tr>
-
 <tr>
 <td>Community centre</td>
 <td>amenity</td>
