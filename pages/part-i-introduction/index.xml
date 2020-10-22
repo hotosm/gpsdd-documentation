@@ -5,10 +5,6 @@
     <link>/pages/part-i-introduction/</link>
     <description>Recent content in Part I - Introduction on Open Mapping for SDGs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/pages/part-i-introduction/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/pages/part-i-introduction/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
