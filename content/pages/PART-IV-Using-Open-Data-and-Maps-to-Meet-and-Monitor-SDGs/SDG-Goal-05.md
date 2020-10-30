@@ -17,7 +17,7 @@ Open mapping projects can support gender equality by creating data about gendere
 
 **[GeoChicas (Mexico):](https://www.hotosm.org/updates/geochicas-mapping-the-path-of-women-after-the-earthquake-in-oaxaca/)** Following the 2017 Mexico earthquakes, the GeoChicas team have started a pilot project researching informal shelters and their relation to women’s security after a disaster. The project is based in the Oaxaca region which suffered two major earthquakes in 2017. Collaborating with disaster response experts, the aim is to create a database of informal provisional shelters and designated shelters to overlay with the geographical locations of reports of sexual harassment and gender violence. The maps produced will help inform and improve women’s safety in the area and during future disaster management.
 
-**[Humanitarian OpenStreetMap Team (Uganda & Democratic Republic of Congo):](https://www.hotosm.org/projects/leveraging-ml-generated-building-data-and-motorcycle-mapping-in-the-drc-and-uganda-to-enhance-humanitarian-response/)** PENDING TEXT - ADD BLURB AND GENDER STRATEGY PDF
+**[Humanitarian OpenStreetMap Team (Uganda & Democratic Republic of Congo):](https://www.hotosm.org/projects/leveraging-ml-generated-building-data-and-motorcycle-mapping-in-the-drc-and-uganda-to-enhance-humanitarian-response/)**
 
 ### What else can be done? 
 
