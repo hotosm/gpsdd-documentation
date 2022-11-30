@@ -9,6 +9,7 @@ enableGitInfo = true
     BookRepo = "https://github.com/hotosm/gpsdd-documentation"
     BookShowToC = false
     BookEditPath = "/edit/master/content/"
+    matomoSiteID = 21
 
 [imaging]
     resampleFilter = "box"
